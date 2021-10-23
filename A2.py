@@ -1,6 +1,7 @@
 import sys
 import pandas as pd
 import numpy as np
+import json
 
 
 if len(sys.argv) != 2:
@@ -24,8 +25,8 @@ class csp:
             for d in range(D):
                 self.domains["N" + str(n) + "_" + str(d)] = {"M", "A", "E", "R"}
         self.assignment = {}
-        self.has_rest = [0 in range(N)]
-        self.shift_counts = [0 in range(3)]
+        self.has_rest = [0 for i in range(self.N)]
+        self.shift_counts = [0 for i in range(3)]
         self.cur_day = -1   
         
     def select_unassigned_variable(self):
@@ -66,9 +67,7 @@ class csp:
             if prev_shift == "M" or prev_shift == "E":
                 return False
         num_assigned = len(self.assignment)
-        print(self.shift_counts)
         updated_shift_counts = self.shift_counts[:]
-        print(updated_shift_counts)
         if value == "M":
             updated_shift_counts[0] += 1
         elif value == "A":
@@ -81,7 +80,7 @@ class csp:
         if (num_assigned + 1) % self.D == 0:
             if (updated_shift_counts[0] != self.m) or (updated_shift_counts[1] != self.a) or (updated_shift_counts[2] != self.e):
                 return False            
-        if (num_assigned + 1) % (7 * self.D * self.N) == 0:
+        if (num_assigned + 1) % (7 * self.N) == 0:
             for nurse_rest in updated_has_rest:
                 if nurse_rest == 0:
                     return False
@@ -109,7 +108,7 @@ class csp:
         elif value == "A":
             if self.shift_counts[1] == self.a:
                 # delete "A" from all domains of cur_day
-                for i in range(N):
+                for i in range(self.N):
                     var_name = "N" + str(i) + "_" + str(d)
                     if var_name in updated_domains:
                         if "A" in updated_domains[var_name]:
@@ -119,7 +118,7 @@ class csp:
         elif value == "E":
             if self.shift_counts[2] == self.e:
                 # delete "E" from all domains of cur_day
-                for i in range(N):
+                for i in range(self.N):
                     var_name = "N" + str(i) + "_" + str(d)
                     if var_name in updated_domains:
                         if "E" in updated_domains[var_name]:
@@ -127,12 +126,12 @@ class csp:
                             if len(updated_domains[var_name]) == 0:
                                 return -1
         # inferences for next day of this nurse
-        if d < self.D:
+        if d < self.D-1:
             var_name = "N" + str(n) + "_" + str(d+1)
             if value == "M" or value == "E":
                 updated_domains[var_name].remove("M")
                 if len(updated_domains[var_name]) == 0:
-                                return -1
+                    return -1
         return updated_domains
 
     def backtracking_search(self):
@@ -142,16 +141,25 @@ class csp:
         if len(self.assignment) == self.N * self.D:
             return self.assignment
 
-        if len(self.assignment) % self.N == 0: # assignment for previous day completed
+        if len(self.assignment) % self.N == 0: # assignment for previous day completed, reset shift_counts
             self.cur_day += 1
+            store_shift_counts = self.shift_counts[:]
+            self.shift_counts = [0 for i in range(3)]
+        
+        if len(self.assignment) % (7 * self.N) == 0: # assignment for previous week completed, reset has_rest
+            store_has_rest = self.has_rest[:]
+            self.has_rest = [0 for i in range(self.N)]
 
         var = self.select_unassigned_variable()
+        print(f"Assigning variable {var}")
         n = int(var[1:var.find("_")])
         d = int(var[var.find("_")+1:])
         ordered_domain = self.order_domain_value(var)
+        print(f"Domain of variable {var}: {ordered_domain}")
 
         for value in ordered_domain:
             if self.check_consistency(var, value):
+                print(f"{var}: {value} consistent with assignment")
                 self.assignment[var] = value
                 if value == "M":
                     self.shift_counts[0] += 1
@@ -161,29 +169,42 @@ class csp:
                     self.shift_counts[2] += 1
                 if value == "R":
                     self.has_rest[n] += 1
+                # print(self.domains)
+                # print(self.assignment)
                 store_var_domain = self.domains[var].copy()
                 del self.domains[var]
                 store_domains = {key: value.copy() for key, value in self.domains.items()}
                 inferences = self.get_inferences(var)
                 if inferences != -1:
+                    print(f"Assigned {var} = {value}")
                     self.domains = inferences
                     result = self.backtracking_search()
                     if result != -1:
                         return result
-            del self.assignment[var]
-            if value == "M":
-                self.shift_counts[0] -= 1
-            elif value == "A":
-                self.shift_counts[1] -= 1
-            elif value == "E":
-                self.shift_counts[2] -= 1
-            if value == "R":
-                self.has_rest[n] -= 1
-            self.domains[var] = store_var_domain
-            self.domains = store_domains
+                else:
+                    print(f"{var}: {value} inconsistent with inferences")
+            if var in self.assignment:
+                print(f"Undo {var} = {value}")
+                del self.assignment[var]
+                if value == "M":
+                    self.shift_counts[0] -= 1
+                elif value == "A":
+                    self.shift_counts[1] -= 1
+                elif value == "E":
+                    self.shift_counts[2] -= 1
+                if value == "R":
+                    self.has_rest[n] -= 1
+                self.domains = store_domains # undo inferences
+                self.domains[var] = store_var_domain # add back domain of var since it gets unassigned
         
-        if len(self.assignment) % self.N == 0: # undo cur_day updation in case of failure
+        if len(self.assignment) % self.N == 0: # in case of failure, undo cur_day updation and undo resetting of shift_counts
             self.cur_day -= 1
+            self.shift_counts = store_shift_counts
+        
+        if len(self.assignment) % (7 * self.N) == 0: # in case of failure, undo resetting of has_rest
+            self.has_rest = store_has_rest
+
+        print("Failure")
 
         return -1       
 
@@ -195,8 +216,9 @@ if values.size == 5:
         assignment = {}
     else:
         print(assignment)
+    soln_list = [assignment]
     with open("solution.json", 'w') as file:
-        for d in assignment:
+        for d in soln_list:
             json.dump(d, file)
             file.write("\n")
 

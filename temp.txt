@@ -1,0 +1,7480 @@
+Assigning variable N0_0
+Domain of variable N0_0: ['M', 'E', 'A', 'R']
+N0_0: M consistent with assignment
+Assigned N0_0 = M
+Assigning variable N1_0
+Domain of variable N1_0: ['M', 'E', 'A', 'R']
+N1_0: M consistent with assignment
+Assigned N1_0 = M
+Assigning variable N2_0
+Domain of variable N2_0: ['E', 'A', 'R']
+N2_0: E consistent with assignment
+Assigned N2_0 = E
+Assigning variable N3_0
+Domain of variable N3_0: ['A', 'R']
+N3_0: A consistent with assignment
+Assigned N3_0 = A
+Assigning variable N4_0
+Domain of variable N4_0: ['R']
+N4_0: R consistent with assignment
+Assigned N4_0 = R
+Assigning variable N0_1
+Domain of variable N0_1: ['E', 'A', 'R']
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N1_1
+Domain of variable N1_1: ['A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = R
+Failure
+Undo N3_0 = A
+N3_0: R consistent with assignment
+Assigned N3_0 = R
+Assigning variable N4_0
+Domain of variable N4_0: ['A', 'R']
+N4_0: A consistent with assignment
+Assigned N4_0 = A
+Assigning variable N0_1
+Domain of variable N0_1: ['E', 'A', 'R']
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N1_1
+Domain of variable N1_1: ['A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = A
+N4_0: R consistent with assignment
+Assigned N4_0 = R
+Assigning variable N0_1
+Domain of variable N0_1: ['E', 'A', 'R']
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N1_1
+Domain of variable N1_1: ['A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = R
+Failure
+Undo N3_0 = R
+Failure
+Undo N2_0 = E
+N2_0: A consistent with assignment
+Assigned N2_0 = A
+Assigning variable N3_0
+Domain of variable N3_0: ['E', 'R']
+N3_0: E consistent with assignment
+Assigned N3_0 = E
+Assigning variable N4_0
+Domain of variable N4_0: ['R']
+N4_0: R consistent with assignment
+Assigned N4_0 = R
+Assigning variable N0_1
+Domain of variable N0_1: ['E', 'A', 'R']
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N1_1
+Domain of variable N1_1: ['A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = R
+Failure
+Undo N3_0 = E
+N3_0: R consistent with assignment
+Assigned N3_0 = R
+Assigning variable N4_0
+Domain of variable N4_0: ['E', 'R']
+N4_0: E consistent with assignment
+Assigned N4_0 = E
+Assigning variable N0_1
+Domain of variable N0_1: ['E', 'A', 'R']
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N1_1
+Domain of variable N1_1: ['A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = E
+N4_0: R consistent with assignment
+Assigned N4_0 = R
+Assigning variable N0_1
+Domain of variable N0_1: ['E', 'A', 'R']
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N1_1
+Domain of variable N1_1: ['A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = R
+Failure
+Undo N3_0 = R
+Failure
+Undo N2_0 = A
+N2_0: R consistent with assignment
+Assigned N2_0 = R
+Assigning variable N3_0
+Domain of variable N3_0: ['E', 'A', 'R']
+N3_0: E consistent with assignment
+Assigned N3_0 = E
+Assigning variable N4_0
+Domain of variable N4_0: ['A', 'R']
+N4_0: A consistent with assignment
+Assigned N4_0 = A
+Assigning variable N0_1
+Domain of variable N0_1: ['E', 'A', 'R']
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N1_1
+Domain of variable N1_1: ['A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = A
+N4_0: R consistent with assignment
+Assigned N4_0 = R
+Assigning variable N0_1
+Domain of variable N0_1: ['E', 'A', 'R']
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N1_1
+Domain of variable N1_1: ['A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = R
+Failure
+Undo N3_0 = E
+N3_0: A consistent with assignment
+Assigned N3_0 = A
+Assigning variable N4_0
+Domain of variable N4_0: ['E', 'R']
+N4_0: E consistent with assignment
+Assigned N4_0 = E
+Assigning variable N0_1
+Domain of variable N0_1: ['E', 'A', 'R']
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N1_1
+Domain of variable N1_1: ['A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = E
+N4_0: R consistent with assignment
+Assigned N4_0 = R
+Assigning variable N0_1
+Domain of variable N0_1: ['E', 'A', 'R']
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N1_1
+Domain of variable N1_1: ['A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = R
+Failure
+Undo N3_0 = A
+N3_0: R consistent with assignment
+Assigned N3_0 = R
+Assigning variable N4_0
+Domain of variable N4_0: ['E', 'A', 'R']
+N4_0: E consistent with assignment
+Assigned N4_0 = E
+Assigning variable N0_1
+Domain of variable N0_1: ['E', 'A', 'R']
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N1_1
+Domain of variable N1_1: ['A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = E
+N4_0: A consistent with assignment
+Assigned N4_0 = A
+Assigning variable N0_1
+Domain of variable N0_1: ['E', 'A', 'R']
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N1_1
+Domain of variable N1_1: ['A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = A
+N4_0: R consistent with assignment
+Assigned N4_0 = R
+Assigning variable N0_1
+Domain of variable N0_1: ['E', 'A', 'R']
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N1_1
+Domain of variable N1_1: ['A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = R
+Failure
+Undo N3_0 = R
+Failure
+Undo N2_0 = R
+Failure
+Undo N1_0 = M
+N1_0: E consistent with assignment
+Assigned N1_0 = E
+Assigning variable N2_0
+Domain of variable N2_0: ['M', 'A', 'R']
+N2_0: M consistent with assignment
+Assigned N2_0 = M
+Assigning variable N3_0
+Domain of variable N3_0: ['A', 'R']
+N3_0: A consistent with assignment
+Assigned N3_0 = A
+Assigning variable N4_0
+Domain of variable N4_0: ['R']
+N4_0: R consistent with assignment
+Assigned N4_0 = R
+Assigning variable N0_1
+Domain of variable N0_1: ['E', 'A', 'R']
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N1_1
+Domain of variable N1_1: ['A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = R
+Failure
+Undo N3_0 = A
+N3_0: R consistent with assignment
+Assigned N3_0 = R
+Assigning variable N4_0
+Domain of variable N4_0: ['A', 'R']
+N4_0: A consistent with assignment
+Assigned N4_0 = A
+Assigning variable N0_1
+Domain of variable N0_1: ['E', 'A', 'R']
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N1_1
+Domain of variable N1_1: ['A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = A
+N4_0: R consistent with assignment
+Assigned N4_0 = R
+Assigning variable N0_1
+Domain of variable N0_1: ['E', 'A', 'R']
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N1_1
+Domain of variable N1_1: ['A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = R
+Failure
+Undo N3_0 = R
+Failure
+Undo N2_0 = M
+N2_0: A consistent with assignment
+Assigned N2_0 = A
+Assigning variable N3_0
+Domain of variable N3_0: ['M', 'R']
+N3_0: M consistent with assignment
+Assigned N3_0 = M
+Assigning variable N4_0
+Domain of variable N4_0: ['R']
+N4_0: R consistent with assignment
+Assigned N4_0 = R
+Assigning variable N0_1
+Domain of variable N0_1: ['E', 'A', 'R']
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N1_1
+Domain of variable N1_1: ['A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = R
+Failure
+Undo N3_0 = M
+N3_0: R consistent with assignment
+Assigned N3_0 = R
+Assigning variable N4_0
+Domain of variable N4_0: ['M', 'R']
+N4_0: M consistent with assignment
+Assigned N4_0 = M
+Assigning variable N0_1
+Domain of variable N0_1: ['E', 'A', 'R']
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N1_1
+Domain of variable N1_1: ['A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = M
+N4_0: R consistent with assignment
+Assigned N4_0 = R
+Assigning variable N0_1
+Domain of variable N0_1: ['E', 'A', 'R']
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N1_1
+Domain of variable N1_1: ['A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = R
+Failure
+Undo N3_0 = R
+Failure
+Undo N2_0 = A
+N2_0: R consistent with assignment
+Assigned N2_0 = R
+Assigning variable N3_0
+Domain of variable N3_0: ['M', 'A', 'R']
+N3_0: M consistent with assignment
+Assigned N3_0 = M
+Assigning variable N4_0
+Domain of variable N4_0: ['A', 'R']
+N4_0: A consistent with assignment
+Assigned N4_0 = A
+Assigning variable N0_1
+Domain of variable N0_1: ['E', 'A', 'R']
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N1_1
+Domain of variable N1_1: ['A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = A
+N4_0: R consistent with assignment
+Assigned N4_0 = R
+Assigning variable N0_1
+Domain of variable N0_1: ['E', 'A', 'R']
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N1_1
+Domain of variable N1_1: ['A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = R
+Failure
+Undo N3_0 = M
+N3_0: A consistent with assignment
+Assigned N3_0 = A
+Assigning variable N4_0
+Domain of variable N4_0: ['M', 'R']
+N4_0: M consistent with assignment
+Assigned N4_0 = M
+Assigning variable N0_1
+Domain of variable N0_1: ['E', 'A', 'R']
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N1_1
+Domain of variable N1_1: ['A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = M
+N4_0: R consistent with assignment
+Assigned N4_0 = R
+Assigning variable N0_1
+Domain of variable N0_1: ['E', 'A', 'R']
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N1_1
+Domain of variable N1_1: ['A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = R
+Failure
+Undo N3_0 = A
+N3_0: R consistent with assignment
+Assigned N3_0 = R
+Assigning variable N4_0
+Domain of variable N4_0: ['M', 'A', 'R']
+N4_0: M consistent with assignment
+Assigned N4_0 = M
+Assigning variable N0_1
+Domain of variable N0_1: ['E', 'A', 'R']
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N1_1
+Domain of variable N1_1: ['A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = M
+N4_0: A consistent with assignment
+Assigned N4_0 = A
+Assigning variable N0_1
+Domain of variable N0_1: ['E', 'A', 'R']
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N1_1
+Domain of variable N1_1: ['A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = A
+N4_0: R consistent with assignment
+Assigned N4_0 = R
+Assigning variable N0_1
+Domain of variable N0_1: ['E', 'A', 'R']
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N1_1
+Domain of variable N1_1: ['A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = R
+Failure
+Undo N3_0 = R
+Failure
+Undo N2_0 = R
+Failure
+Undo N1_0 = E
+N1_0: A consistent with assignment
+Assigned N1_0 = A
+Assigning variable N2_0
+Domain of variable N2_0: ['M', 'E', 'R']
+N2_0: M consistent with assignment
+Assigned N2_0 = M
+Assigning variable N3_0
+Domain of variable N3_0: ['E', 'R']
+N3_0: E consistent with assignment
+Assigned N3_0 = E
+Assigning variable N4_0
+Domain of variable N4_0: ['R']
+N4_0: R consistent with assignment
+Assigned N4_0 = R
+Assigning variable N0_1
+Domain of variable N0_1: ['E', 'A', 'R']
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N2_1
+Domain of variable N2_1: ['A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = R
+Failure
+Undo N3_0 = E
+N3_0: R consistent with assignment
+Assigned N3_0 = R
+Assigning variable N4_0
+Domain of variable N4_0: ['E', 'R']
+N4_0: E consistent with assignment
+Assigned N4_0 = E
+Assigning variable N0_1
+Domain of variable N0_1: ['E', 'A', 'R']
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N2_1
+Domain of variable N2_1: ['A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = E
+N4_0: R consistent with assignment
+Assigned N4_0 = R
+Assigning variable N0_1
+Domain of variable N0_1: ['E', 'A', 'R']
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N2_1
+Domain of variable N2_1: ['A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = R
+Failure
+Undo N3_0 = R
+Failure
+Undo N2_0 = M
+N2_0: E consistent with assignment
+Assigned N2_0 = E
+Assigning variable N3_0
+Domain of variable N3_0: ['M', 'R']
+N3_0: M consistent with assignment
+Assigned N3_0 = M
+Assigning variable N4_0
+Domain of variable N4_0: ['R']
+N4_0: R consistent with assignment
+Assigned N4_0 = R
+Assigning variable N0_1
+Domain of variable N0_1: ['E', 'A', 'R']
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N2_1
+Domain of variable N2_1: ['A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = R
+Failure
+Undo N3_0 = M
+N3_0: R consistent with assignment
+Assigned N3_0 = R
+Assigning variable N4_0
+Domain of variable N4_0: ['M', 'R']
+N4_0: M consistent with assignment
+Assigned N4_0 = M
+Assigning variable N0_1
+Domain of variable N0_1: ['E', 'A', 'R']
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N2_1
+Domain of variable N2_1: ['A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = M
+N4_0: R consistent with assignment
+Assigned N4_0 = R
+Assigning variable N0_1
+Domain of variable N0_1: ['E', 'A', 'R']
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N2_1
+Domain of variable N2_1: ['A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = R
+Failure
+Undo N3_0 = R
+Failure
+Undo N2_0 = E
+N2_0: R consistent with assignment
+Assigned N2_0 = R
+Assigning variable N3_0
+Domain of variable N3_0: ['M', 'E', 'R']
+N3_0: M consistent with assignment
+Assigned N3_0 = M
+Assigning variable N4_0
+Domain of variable N4_0: ['E', 'R']
+N4_0: E consistent with assignment
+Assigned N4_0 = E
+Assigning variable N0_1
+Domain of variable N0_1: ['E', 'A', 'R']
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N3_1
+Domain of variable N3_1: ['A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = E
+N4_0: R consistent with assignment
+Assigned N4_0 = R
+Assigning variable N0_1
+Domain of variable N0_1: ['E', 'A', 'R']
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N3_1
+Domain of variable N3_1: ['A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = R
+Failure
+Undo N3_0 = M
+N3_0: E consistent with assignment
+Assigned N3_0 = E
+Assigning variable N4_0
+Domain of variable N4_0: ['M', 'R']
+N4_0: M consistent with assignment
+Assigned N4_0 = M
+Assigning variable N0_1
+Domain of variable N0_1: ['E', 'A', 'R']
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N3_1
+Domain of variable N3_1: ['A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = M
+N4_0: R consistent with assignment
+Assigned N4_0 = R
+Assigning variable N0_1
+Domain of variable N0_1: ['E', 'A', 'R']
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N3_1
+Domain of variable N3_1: ['A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = R
+Failure
+Undo N3_0 = E
+N3_0: R consistent with assignment
+Assigned N3_0 = R
+Assigning variable N4_0
+Domain of variable N4_0: ['M', 'E', 'R']
+N4_0: M consistent with assignment
+Assigned N4_0 = M
+Assigning variable N0_1
+Domain of variable N0_1: ['E', 'A', 'R']
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N4_1
+Domain of variable N4_1: ['A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N4_1
+Domain of variable N4_1: ['E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N4_1
+Domain of variable N4_1: ['E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = M
+N4_0: E consistent with assignment
+Assigned N4_0 = E
+Assigning variable N0_1
+Domain of variable N0_1: ['E', 'A', 'R']
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N4_1
+Domain of variable N4_1: ['A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N4_1
+Domain of variable N4_1: ['E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N4_1
+Domain of variable N4_1: ['E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = E
+N4_0: R consistent with assignment
+Assigned N4_0 = R
+Assigning variable N0_1
+Domain of variable N0_1: ['E', 'A', 'R']
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N1_1
+Domain of variable N1_1: ['M', 'A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N1_1
+Domain of variable N1_1: ['M', 'E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N1_1
+Domain of variable N1_1: ['M', 'E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = R
+Failure
+Undo N3_0 = R
+Failure
+Undo N2_0 = R
+Failure
+Undo N1_0 = A
+N1_0: R consistent with assignment
+Assigned N1_0 = R
+Assigning variable N2_0
+Domain of variable N2_0: ['M', 'E', 'A', 'R']
+N2_0: M consistent with assignment
+Assigned N2_0 = M
+Assigning variable N3_0
+Domain of variable N3_0: ['E', 'A', 'R']
+N3_0: E consistent with assignment
+Assigned N3_0 = E
+Assigning variable N4_0
+Domain of variable N4_0: ['A', 'R']
+N4_0: A consistent with assignment
+Assigned N4_0 = A
+Assigning variable N0_1
+Domain of variable N0_1: ['E', 'A', 'R']
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N2_1
+Domain of variable N2_1: ['A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = A
+N4_0: R consistent with assignment
+Assigned N4_0 = R
+Assigning variable N0_1
+Domain of variable N0_1: ['E', 'A', 'R']
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N2_1
+Domain of variable N2_1: ['A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = R
+Failure
+Undo N3_0 = E
+N3_0: A consistent with assignment
+Assigned N3_0 = A
+Assigning variable N4_0
+Domain of variable N4_0: ['E', 'R']
+N4_0: E consistent with assignment
+Assigned N4_0 = E
+Assigning variable N0_1
+Domain of variable N0_1: ['E', 'A', 'R']
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N2_1
+Domain of variable N2_1: ['A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = E
+N4_0: R consistent with assignment
+Assigned N4_0 = R
+Assigning variable N0_1
+Domain of variable N0_1: ['E', 'A', 'R']
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N2_1
+Domain of variable N2_1: ['A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = R
+Failure
+Undo N3_0 = A
+N3_0: R consistent with assignment
+Assigned N3_0 = R
+Assigning variable N4_0
+Domain of variable N4_0: ['E', 'A', 'R']
+N4_0: E consistent with assignment
+Assigned N4_0 = E
+Assigning variable N0_1
+Domain of variable N0_1: ['E', 'A', 'R']
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N2_1
+Domain of variable N2_1: ['A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = E
+N4_0: A consistent with assignment
+Assigned N4_0 = A
+Assigning variable N0_1
+Domain of variable N0_1: ['E', 'A', 'R']
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N2_1
+Domain of variable N2_1: ['A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = A
+N4_0: R consistent with assignment
+Assigned N4_0 = R
+Assigning variable N0_1
+Domain of variable N0_1: ['E', 'A', 'R']
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N2_1
+Domain of variable N2_1: ['A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = R
+Failure
+Undo N3_0 = R
+Failure
+Undo N2_0 = M
+N2_0: E consistent with assignment
+Assigned N2_0 = E
+Assigning variable N3_0
+Domain of variable N3_0: ['M', 'A', 'R']
+N3_0: M consistent with assignment
+Assigned N3_0 = M
+Assigning variable N4_0
+Domain of variable N4_0: ['A', 'R']
+N4_0: A consistent with assignment
+Assigned N4_0 = A
+Assigning variable N0_1
+Domain of variable N0_1: ['E', 'A', 'R']
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N2_1
+Domain of variable N2_1: ['A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = A
+N4_0: R consistent with assignment
+Assigned N4_0 = R
+Assigning variable N0_1
+Domain of variable N0_1: ['E', 'A', 'R']
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N2_1
+Domain of variable N2_1: ['A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = R
+Failure
+Undo N3_0 = M
+N3_0: A consistent with assignment
+Assigned N3_0 = A
+Assigning variable N4_0
+Domain of variable N4_0: ['M', 'R']
+N4_0: M consistent with assignment
+Assigned N4_0 = M
+Assigning variable N0_1
+Domain of variable N0_1: ['E', 'A', 'R']
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N2_1
+Domain of variable N2_1: ['A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = M
+N4_0: R consistent with assignment
+Assigned N4_0 = R
+Assigning variable N0_1
+Domain of variable N0_1: ['E', 'A', 'R']
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N2_1
+Domain of variable N2_1: ['A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = R
+Failure
+Undo N3_0 = A
+N3_0: R consistent with assignment
+Assigned N3_0 = R
+Assigning variable N4_0
+Domain of variable N4_0: ['M', 'A', 'R']
+N4_0: M consistent with assignment
+Assigned N4_0 = M
+Assigning variable N0_1
+Domain of variable N0_1: ['E', 'A', 'R']
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N2_1
+Domain of variable N2_1: ['A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = M
+N4_0: A consistent with assignment
+Assigned N4_0 = A
+Assigning variable N0_1
+Domain of variable N0_1: ['E', 'A', 'R']
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N2_1
+Domain of variable N2_1: ['A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = A
+N4_0: R consistent with assignment
+Assigned N4_0 = R
+Assigning variable N0_1
+Domain of variable N0_1: ['E', 'A', 'R']
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N2_1
+Domain of variable N2_1: ['A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = R
+Failure
+Undo N3_0 = R
+Failure
+Undo N2_0 = E
+N2_0: A consistent with assignment
+Assigned N2_0 = A
+Assigning variable N3_0
+Domain of variable N3_0: ['M', 'E', 'R']
+N3_0: M consistent with assignment
+Assigned N3_0 = M
+Assigning variable N4_0
+Domain of variable N4_0: ['E', 'R']
+N4_0: E consistent with assignment
+Assigned N4_0 = E
+Assigning variable N0_1
+Domain of variable N0_1: ['E', 'A', 'R']
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N3_1
+Domain of variable N3_1: ['A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = E
+N4_0: R consistent with assignment
+Assigned N4_0 = R
+Assigning variable N0_1
+Domain of variable N0_1: ['E', 'A', 'R']
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N3_1
+Domain of variable N3_1: ['A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = R
+Failure
+Undo N3_0 = M
+N3_0: E consistent with assignment
+Assigned N3_0 = E
+Assigning variable N4_0
+Domain of variable N4_0: ['M', 'R']
+N4_0: M consistent with assignment
+Assigned N4_0 = M
+Assigning variable N0_1
+Domain of variable N0_1: ['E', 'A', 'R']
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N3_1
+Domain of variable N3_1: ['A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = M
+N4_0: R consistent with assignment
+Assigned N4_0 = R
+Assigning variable N0_1
+Domain of variable N0_1: ['E', 'A', 'R']
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N3_1
+Domain of variable N3_1: ['A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = R
+Failure
+Undo N3_0 = E
+N3_0: R consistent with assignment
+Assigned N3_0 = R
+Assigning variable N4_0
+Domain of variable N4_0: ['M', 'E', 'R']
+N4_0: M consistent with assignment
+Assigned N4_0 = M
+Assigning variable N0_1
+Domain of variable N0_1: ['E', 'A', 'R']
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N4_1
+Domain of variable N4_1: ['A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N4_1
+Domain of variable N4_1: ['E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N4_1
+Domain of variable N4_1: ['E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = M
+N4_0: E consistent with assignment
+Assigned N4_0 = E
+Assigning variable N0_1
+Domain of variable N0_1: ['E', 'A', 'R']
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N4_1
+Domain of variable N4_1: ['A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N4_1
+Domain of variable N4_1: ['E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N4_1
+Domain of variable N4_1: ['E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = E
+N4_0: R consistent with assignment
+Assigned N4_0 = R
+Assigning variable N0_1
+Domain of variable N0_1: ['E', 'A', 'R']
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N1_1
+Domain of variable N1_1: ['M', 'A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N1_1
+Domain of variable N1_1: ['M', 'E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N1_1
+Domain of variable N1_1: ['M', 'E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = R
+Failure
+Undo N3_0 = R
+Failure
+Undo N2_0 = A
+N2_0: R consistent with assignment
+Assigned N2_0 = R
+Assigning variable N3_0
+Domain of variable N3_0: ['M', 'E', 'A', 'R']
+N3_0: M consistent with assignment
+Assigned N3_0 = M
+Assigning variable N4_0
+Domain of variable N4_0: ['E', 'A', 'R']
+N4_0: E consistent with assignment
+Assigned N4_0 = E
+Assigning variable N0_1
+Domain of variable N0_1: ['E', 'A', 'R']
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N3_1
+Domain of variable N3_1: ['A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = E
+N4_0: A consistent with assignment
+Assigned N4_0 = A
+Assigning variable N0_1
+Domain of variable N0_1: ['E', 'A', 'R']
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N3_1
+Domain of variable N3_1: ['A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = A
+N4_0: R consistent with assignment
+Assigned N4_0 = R
+Assigning variable N0_1
+Domain of variable N0_1: ['E', 'A', 'R']
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N3_1
+Domain of variable N3_1: ['A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = R
+Failure
+Undo N3_0 = M
+N3_0: E consistent with assignment
+Assigned N3_0 = E
+Assigning variable N4_0
+Domain of variable N4_0: ['M', 'A', 'R']
+N4_0: M consistent with assignment
+Assigned N4_0 = M
+Assigning variable N0_1
+Domain of variable N0_1: ['E', 'A', 'R']
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N3_1
+Domain of variable N3_1: ['A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = M
+N4_0: A consistent with assignment
+Assigned N4_0 = A
+Assigning variable N0_1
+Domain of variable N0_1: ['E', 'A', 'R']
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N3_1
+Domain of variable N3_1: ['A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = A
+N4_0: R consistent with assignment
+Assigned N4_0 = R
+Assigning variable N0_1
+Domain of variable N0_1: ['E', 'A', 'R']
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N3_1
+Domain of variable N3_1: ['A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = R
+Failure
+Undo N3_0 = E
+N3_0: A consistent with assignment
+Assigned N3_0 = A
+Assigning variable N4_0
+Domain of variable N4_0: ['M', 'E', 'R']
+N4_0: M consistent with assignment
+Assigned N4_0 = M
+Assigning variable N0_1
+Domain of variable N0_1: ['E', 'A', 'R']
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N4_1
+Domain of variable N4_1: ['A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N4_1
+Domain of variable N4_1: ['E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N4_1
+Domain of variable N4_1: ['E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = M
+N4_0: E consistent with assignment
+Assigned N4_0 = E
+Assigning variable N0_1
+Domain of variable N0_1: ['E', 'A', 'R']
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N4_1
+Domain of variable N4_1: ['A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N4_1
+Domain of variable N4_1: ['E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N4_1
+Domain of variable N4_1: ['E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = E
+N4_0: R consistent with assignment
+Assigned N4_0 = R
+Assigning variable N0_1
+Domain of variable N0_1: ['E', 'A', 'R']
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N1_1
+Domain of variable N1_1: ['M', 'A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N1_1
+Domain of variable N1_1: ['M', 'E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N1_1
+Domain of variable N1_1: ['M', 'E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = R
+Failure
+Undo N3_0 = A
+N3_0: R consistent with assignment
+Assigned N3_0 = R
+Assigning variable N4_0
+Domain of variable N4_0: ['M', 'E', 'A', 'R']
+N4_0: M consistent with assignment
+Assigned N4_0 = M
+Assigning variable N0_1
+Domain of variable N0_1: ['E', 'A', 'R']
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N4_1
+Domain of variable N4_1: ['A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N4_1
+Domain of variable N4_1: ['E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N4_1
+Domain of variable N4_1: ['E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = M
+N4_0: E consistent with assignment
+Assigned N4_0 = E
+Assigning variable N0_1
+Domain of variable N0_1: ['E', 'A', 'R']
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N4_1
+Domain of variable N4_1: ['A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N4_1
+Domain of variable N4_1: ['E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N4_1
+Domain of variable N4_1: ['E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = E
+N4_0: A consistent with assignment
+Assigned N4_0 = A
+Assigning variable N0_1
+Domain of variable N0_1: ['E', 'A', 'R']
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N1_1
+Domain of variable N1_1: ['M', 'A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N1_1
+Domain of variable N1_1: ['M', 'E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N1_1
+Domain of variable N1_1: ['M', 'E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = A
+N4_0: R consistent with assignment
+Assigned N4_0 = R
+Assigning variable N0_1
+Domain of variable N0_1: ['E', 'A', 'R']
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N1_1
+Domain of variable N1_1: ['M', 'A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N1_1
+Domain of variable N1_1: ['M', 'E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N1_1
+Domain of variable N1_1: ['M', 'E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = R
+Failure
+Undo N3_0 = R
+Failure
+Undo N2_0 = R
+Failure
+Undo N1_0 = R
+Failure
+Undo N0_0 = M
+N0_0: E consistent with assignment
+Assigned N0_0 = E
+Assigning variable N1_0
+Domain of variable N1_0: ['M', 'A', 'R']
+N1_0: M consistent with assignment
+Assigned N1_0 = M
+Assigning variable N2_0
+Domain of variable N2_0: ['M', 'A', 'R']
+N2_0: M consistent with assignment
+Assigned N2_0 = M
+Assigning variable N3_0
+Domain of variable N3_0: ['A', 'R']
+N3_0: A consistent with assignment
+Assigned N3_0 = A
+Assigning variable N4_0
+Domain of variable N4_0: ['R']
+N4_0: R consistent with assignment
+Assigned N4_0 = R
+Assigning variable N0_1
+Domain of variable N0_1: ['E', 'A', 'R']
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N1_1
+Domain of variable N1_1: ['A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = R
+Failure
+Undo N3_0 = A
+N3_0: R consistent with assignment
+Assigned N3_0 = R
+Assigning variable N4_0
+Domain of variable N4_0: ['A', 'R']
+N4_0: A consistent with assignment
+Assigned N4_0 = A
+Assigning variable N0_1
+Domain of variable N0_1: ['E', 'A', 'R']
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N1_1
+Domain of variable N1_1: ['A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = A
+N4_0: R consistent with assignment
+Assigned N4_0 = R
+Assigning variable N0_1
+Domain of variable N0_1: ['E', 'A', 'R']
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N1_1
+Domain of variable N1_1: ['A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = R
+Failure
+Undo N3_0 = R
+Failure
+Undo N2_0 = M
+N2_0: A consistent with assignment
+Assigned N2_0 = A
+Assigning variable N3_0
+Domain of variable N3_0: ['M', 'R']
+N3_0: M consistent with assignment
+Assigned N3_0 = M
+Assigning variable N4_0
+Domain of variable N4_0: ['R']
+N4_0: R consistent with assignment
+Assigned N4_0 = R
+Assigning variable N0_1
+Domain of variable N0_1: ['E', 'A', 'R']
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N1_1
+Domain of variable N1_1: ['A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = R
+Failure
+Undo N3_0 = M
+N3_0: R consistent with assignment
+Assigned N3_0 = R
+Assigning variable N4_0
+Domain of variable N4_0: ['M', 'R']
+N4_0: M consistent with assignment
+Assigned N4_0 = M
+Assigning variable N0_1
+Domain of variable N0_1: ['E', 'A', 'R']
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N1_1
+Domain of variable N1_1: ['A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = M
+N4_0: R consistent with assignment
+Assigned N4_0 = R
+Assigning variable N0_1
+Domain of variable N0_1: ['E', 'A', 'R']
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N1_1
+Domain of variable N1_1: ['A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = R
+Failure
+Undo N3_0 = R
+Failure
+Undo N2_0 = A
+N2_0: R consistent with assignment
+Assigned N2_0 = R
+Assigning variable N3_0
+Domain of variable N3_0: ['M', 'A', 'R']
+N3_0: M consistent with assignment
+Assigned N3_0 = M
+Assigning variable N4_0
+Domain of variable N4_0: ['A', 'R']
+N4_0: A consistent with assignment
+Assigned N4_0 = A
+Assigning variable N0_1
+Domain of variable N0_1: ['E', 'A', 'R']
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N1_1
+Domain of variable N1_1: ['A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = A
+N4_0: R consistent with assignment
+Assigned N4_0 = R
+Assigning variable N0_1
+Domain of variable N0_1: ['E', 'A', 'R']
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N1_1
+Domain of variable N1_1: ['A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = R
+Failure
+Undo N3_0 = M
+N3_0: A consistent with assignment
+Assigned N3_0 = A
+Assigning variable N4_0
+Domain of variable N4_0: ['M', 'R']
+N4_0: M consistent with assignment
+Assigned N4_0 = M
+Assigning variable N0_1
+Domain of variable N0_1: ['E', 'A', 'R']
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N1_1
+Domain of variable N1_1: ['A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = M
+N4_0: R consistent with assignment
+Assigned N4_0 = R
+Assigning variable N0_1
+Domain of variable N0_1: ['E', 'A', 'R']
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N1_1
+Domain of variable N1_1: ['A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = R
+Failure
+Undo N3_0 = A
+N3_0: R consistent with assignment
+Assigned N3_0 = R
+Assigning variable N4_0
+Domain of variable N4_0: ['M', 'A', 'R']
+N4_0: M consistent with assignment
+Assigned N4_0 = M
+Assigning variable N0_1
+Domain of variable N0_1: ['E', 'A', 'R']
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N1_1
+Domain of variable N1_1: ['A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = M
+N4_0: A consistent with assignment
+Assigned N4_0 = A
+Assigning variable N0_1
+Domain of variable N0_1: ['E', 'A', 'R']
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N1_1
+Domain of variable N1_1: ['A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = A
+N4_0: R consistent with assignment
+Assigned N4_0 = R
+Assigning variable N0_1
+Domain of variable N0_1: ['E', 'A', 'R']
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N1_1
+Domain of variable N1_1: ['A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = R
+Failure
+Undo N3_0 = R
+Failure
+Undo N2_0 = R
+Failure
+Undo N1_0 = M
+N1_0: A consistent with assignment
+Assigned N1_0 = A
+Assigning variable N2_0
+Domain of variable N2_0: ['M', 'R']
+N2_0: M consistent with assignment
+Assigned N2_0 = M
+Assigning variable N3_0
+Domain of variable N3_0: ['M', 'R']
+N3_0: M consistent with assignment
+Assigned N3_0 = M
+Assigning variable N4_0
+Domain of variable N4_0: ['R']
+N4_0: R consistent with assignment
+Assigned N4_0 = R
+Assigning variable N0_1
+Domain of variable N0_1: ['E', 'A', 'R']
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N2_1
+Domain of variable N2_1: ['A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = R
+Failure
+Undo N3_0 = M
+N3_0: R consistent with assignment
+Assigned N3_0 = R
+Assigning variable N4_0
+Domain of variable N4_0: ['M', 'R']
+N4_0: M consistent with assignment
+Assigned N4_0 = M
+Assigning variable N0_1
+Domain of variable N0_1: ['E', 'A', 'R']
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N2_1
+Domain of variable N2_1: ['A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = M
+N4_0: R consistent with assignment
+Assigned N4_0 = R
+Assigning variable N0_1
+Domain of variable N0_1: ['E', 'A', 'R']
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N2_1
+Domain of variable N2_1: ['A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = R
+Failure
+Undo N3_0 = R
+Failure
+Undo N2_0 = M
+N2_0: R consistent with assignment
+Assigned N2_0 = R
+Assigning variable N3_0
+Domain of variable N3_0: ['M', 'R']
+N3_0: M consistent with assignment
+Assigned N3_0 = M
+Assigning variable N4_0
+Domain of variable N4_0: ['M', 'R']
+N4_0: M consistent with assignment
+Assigned N4_0 = M
+Assigning variable N0_1
+Domain of variable N0_1: ['E', 'A', 'R']
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N3_1
+Domain of variable N3_1: ['A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = M
+N4_0: R consistent with assignment
+Assigned N4_0 = R
+Assigning variable N0_1
+Domain of variable N0_1: ['E', 'A', 'R']
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N3_1
+Domain of variable N3_1: ['A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = R
+Failure
+Undo N3_0 = M
+N3_0: R consistent with assignment
+Assigned N3_0 = R
+Assigning variable N4_0
+Domain of variable N4_0: ['M', 'R']
+N4_0: M consistent with assignment
+Assigned N4_0 = M
+Assigning variable N0_1
+Domain of variable N0_1: ['E', 'A', 'R']
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N4_1
+Domain of variable N4_1: ['A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N4_1
+Domain of variable N4_1: ['E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N4_1
+Domain of variable N4_1: ['E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = M
+N4_0: R consistent with assignment
+Assigned N4_0 = R
+Assigning variable N0_1
+Domain of variable N0_1: ['E', 'A', 'R']
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N1_1
+Domain of variable N1_1: ['M', 'A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N1_1
+Domain of variable N1_1: ['M', 'E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N1_1
+Domain of variable N1_1: ['M', 'E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = R
+Failure
+Undo N3_0 = R
+Failure
+Undo N2_0 = R
+Failure
+Undo N1_0 = A
+N1_0: R consistent with assignment
+Assigned N1_0 = R
+Assigning variable N2_0
+Domain of variable N2_0: ['M', 'A', 'R']
+N2_0: M consistent with assignment
+Assigned N2_0 = M
+Assigning variable N3_0
+Domain of variable N3_0: ['M', 'A', 'R']
+N3_0: M consistent with assignment
+Assigned N3_0 = M
+Assigning variable N4_0
+Domain of variable N4_0: ['A', 'R']
+N4_0: A consistent with assignment
+Assigned N4_0 = A
+Assigning variable N0_1
+Domain of variable N0_1: ['E', 'A', 'R']
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N2_1
+Domain of variable N2_1: ['A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = A
+N4_0: R consistent with assignment
+Assigned N4_0 = R
+Assigning variable N0_1
+Domain of variable N0_1: ['E', 'A', 'R']
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N2_1
+Domain of variable N2_1: ['A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = R
+Failure
+Undo N3_0 = M
+N3_0: A consistent with assignment
+Assigned N3_0 = A
+Assigning variable N4_0
+Domain of variable N4_0: ['M', 'R']
+N4_0: M consistent with assignment
+Assigned N4_0 = M
+Assigning variable N0_1
+Domain of variable N0_1: ['E', 'A', 'R']
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N2_1
+Domain of variable N2_1: ['A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = M
+N4_0: R consistent with assignment
+Assigned N4_0 = R
+Assigning variable N0_1
+Domain of variable N0_1: ['E', 'A', 'R']
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N2_1
+Domain of variable N2_1: ['A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = R
+Failure
+Undo N3_0 = A
+N3_0: R consistent with assignment
+Assigned N3_0 = R
+Assigning variable N4_0
+Domain of variable N4_0: ['M', 'A', 'R']
+N4_0: M consistent with assignment
+Assigned N4_0 = M
+Assigning variable N0_1
+Domain of variable N0_1: ['E', 'A', 'R']
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N2_1
+Domain of variable N2_1: ['A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = M
+N4_0: A consistent with assignment
+Assigned N4_0 = A
+Assigning variable N0_1
+Domain of variable N0_1: ['E', 'A', 'R']
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N2_1
+Domain of variable N2_1: ['A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = A
+N4_0: R consistent with assignment
+Assigned N4_0 = R
+Assigning variable N0_1
+Domain of variable N0_1: ['E', 'A', 'R']
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N2_1
+Domain of variable N2_1: ['A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = R
+Failure
+Undo N3_0 = R
+Failure
+Undo N2_0 = M
+N2_0: A consistent with assignment
+Assigned N2_0 = A
+Assigning variable N3_0
+Domain of variable N3_0: ['M', 'R']
+N3_0: M consistent with assignment
+Assigned N3_0 = M
+Assigning variable N4_0
+Domain of variable N4_0: ['M', 'R']
+N4_0: M consistent with assignment
+Assigned N4_0 = M
+Assigning variable N0_1
+Domain of variable N0_1: ['E', 'A', 'R']
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N3_1
+Domain of variable N3_1: ['A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = M
+N4_0: R consistent with assignment
+Assigned N4_0 = R
+Assigning variable N0_1
+Domain of variable N0_1: ['E', 'A', 'R']
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N3_1
+Domain of variable N3_1: ['A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = R
+Failure
+Undo N3_0 = M
+N3_0: R consistent with assignment
+Assigned N3_0 = R
+Assigning variable N4_0
+Domain of variable N4_0: ['M', 'R']
+N4_0: M consistent with assignment
+Assigned N4_0 = M
+Assigning variable N0_1
+Domain of variable N0_1: ['E', 'A', 'R']
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N4_1
+Domain of variable N4_1: ['A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N4_1
+Domain of variable N4_1: ['E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N4_1
+Domain of variable N4_1: ['E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = M
+N4_0: R consistent with assignment
+Assigned N4_0 = R
+Assigning variable N0_1
+Domain of variable N0_1: ['E', 'A', 'R']
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N1_1
+Domain of variable N1_1: ['M', 'A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N1_1
+Domain of variable N1_1: ['M', 'E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N1_1
+Domain of variable N1_1: ['M', 'E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = R
+Failure
+Undo N3_0 = R
+Failure
+Undo N2_0 = A
+N2_0: R consistent with assignment
+Assigned N2_0 = R
+Assigning variable N3_0
+Domain of variable N3_0: ['M', 'A', 'R']
+N3_0: M consistent with assignment
+Assigned N3_0 = M
+Assigning variable N4_0
+Domain of variable N4_0: ['M', 'A', 'R']
+N4_0: M consistent with assignment
+Assigned N4_0 = M
+Assigning variable N0_1
+Domain of variable N0_1: ['E', 'A', 'R']
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N3_1
+Domain of variable N3_1: ['A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = M
+N4_0: A consistent with assignment
+Assigned N4_0 = A
+Assigning variable N0_1
+Domain of variable N0_1: ['E', 'A', 'R']
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N3_1
+Domain of variable N3_1: ['A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = A
+N4_0: R consistent with assignment
+Assigned N4_0 = R
+Assigning variable N0_1
+Domain of variable N0_1: ['E', 'A', 'R']
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N3_1
+Domain of variable N3_1: ['A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = R
+Failure
+Undo N3_0 = M
+N3_0: A consistent with assignment
+Assigned N3_0 = A
+Assigning variable N4_0
+Domain of variable N4_0: ['M', 'R']
+N4_0: M consistent with assignment
+Assigned N4_0 = M
+Assigning variable N0_1
+Domain of variable N0_1: ['E', 'A', 'R']
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N4_1
+Domain of variable N4_1: ['A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N4_1
+Domain of variable N4_1: ['E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N4_1
+Domain of variable N4_1: ['E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = M
+N4_0: R consistent with assignment
+Assigned N4_0 = R
+Assigning variable N0_1
+Domain of variable N0_1: ['E', 'A', 'R']
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N1_1
+Domain of variable N1_1: ['M', 'A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N1_1
+Domain of variable N1_1: ['M', 'E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N1_1
+Domain of variable N1_1: ['M', 'E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = R
+Failure
+Undo N3_0 = A
+N3_0: R consistent with assignment
+Assigned N3_0 = R
+Assigning variable N4_0
+Domain of variable N4_0: ['M', 'A', 'R']
+N4_0: M consistent with assignment
+Assigned N4_0 = M
+Assigning variable N0_1
+Domain of variable N0_1: ['E', 'A', 'R']
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N4_1
+Domain of variable N4_1: ['A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N4_1
+Domain of variable N4_1: ['E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N4_1
+Domain of variable N4_1: ['E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = M
+N4_0: A consistent with assignment
+Assigned N4_0 = A
+Assigning variable N0_1
+Domain of variable N0_1: ['E', 'A', 'R']
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N1_1
+Domain of variable N1_1: ['M', 'A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N1_1
+Domain of variable N1_1: ['M', 'E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N1_1
+Domain of variable N1_1: ['M', 'E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = A
+N4_0: R consistent with assignment
+Assigned N4_0 = R
+Assigning variable N0_1
+Domain of variable N0_1: ['E', 'A', 'R']
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N1_1
+Domain of variable N1_1: ['M', 'A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N1_1
+Domain of variable N1_1: ['M', 'E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N1_1
+Domain of variable N1_1: ['M', 'E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = R
+Failure
+Undo N3_0 = R
+Failure
+Undo N2_0 = R
+Failure
+Undo N1_0 = R
+Failure
+Undo N0_0 = E
+N0_0: A consistent with assignment
+Assigned N0_0 = A
+Assigning variable N1_0
+Domain of variable N1_0: ['M', 'E', 'R']
+N1_0: M consistent with assignment
+Assigned N1_0 = M
+Assigning variable N2_0
+Domain of variable N2_0: ['M', 'E', 'R']
+N2_0: M consistent with assignment
+Assigned N2_0 = M
+Assigning variable N3_0
+Domain of variable N3_0: ['E', 'R']
+N3_0: E consistent with assignment
+Assigned N3_0 = E
+Assigning variable N4_0
+Domain of variable N4_0: ['R']
+N4_0: R consistent with assignment
+Assigned N4_0 = R
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'A', 'R']
+N1_1: E consistent with assignment
+Assigned N1_1 = E
+Assigning variable N2_1
+Domain of variable N2_1: ['A', 'R']
+Failure
+Undo N1_1 = E
+N1_1: A consistent with assignment
+Assigned N1_1 = A
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'R']
+Failure
+Undo N1_1 = A
+N1_1: R consistent with assignment
+Assigned N1_1 = R
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'A', 'R']
+Failure
+Undo N1_1 = R
+Failure
+Undo N4_0 = R
+Failure
+Undo N3_0 = E
+N3_0: R consistent with assignment
+Assigned N3_0 = R
+Assigning variable N4_0
+Domain of variable N4_0: ['E', 'R']
+N4_0: E consistent with assignment
+Assigned N4_0 = E
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'A', 'R']
+N1_1: E consistent with assignment
+Assigned N1_1 = E
+Assigning variable N2_1
+Domain of variable N2_1: ['A', 'R']
+Failure
+Undo N1_1 = E
+N1_1: A consistent with assignment
+Assigned N1_1 = A
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'R']
+Failure
+Undo N1_1 = A
+N1_1: R consistent with assignment
+Assigned N1_1 = R
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'A', 'R']
+Failure
+Undo N1_1 = R
+Failure
+Undo N4_0 = E
+N4_0: R consistent with assignment
+Assigned N4_0 = R
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'A', 'R']
+N1_1: E consistent with assignment
+Assigned N1_1 = E
+Assigning variable N2_1
+Domain of variable N2_1: ['A', 'R']
+Failure
+Undo N1_1 = E
+N1_1: A consistent with assignment
+Assigned N1_1 = A
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'R']
+Failure
+Undo N1_1 = A
+N1_1: R consistent with assignment
+Assigned N1_1 = R
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'A', 'R']
+Failure
+Undo N1_1 = R
+Failure
+Undo N4_0 = R
+Failure
+Undo N3_0 = R
+Failure
+Undo N2_0 = M
+N2_0: E consistent with assignment
+Assigned N2_0 = E
+Assigning variable N3_0
+Domain of variable N3_0: ['M', 'R']
+N3_0: M consistent with assignment
+Assigned N3_0 = M
+Assigning variable N4_0
+Domain of variable N4_0: ['R']
+N4_0: R consistent with assignment
+Assigned N4_0 = R
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'A', 'R']
+N1_1: E consistent with assignment
+Assigned N1_1 = E
+Assigning variable N2_1
+Domain of variable N2_1: ['A', 'R']
+Failure
+Undo N1_1 = E
+N1_1: A consistent with assignment
+Assigned N1_1 = A
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'R']
+Failure
+Undo N1_1 = A
+N1_1: R consistent with assignment
+Assigned N1_1 = R
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'A', 'R']
+Failure
+Undo N1_1 = R
+Failure
+Undo N4_0 = R
+Failure
+Undo N3_0 = M
+N3_0: R consistent with assignment
+Assigned N3_0 = R
+Assigning variable N4_0
+Domain of variable N4_0: ['M', 'R']
+N4_0: M consistent with assignment
+Assigned N4_0 = M
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'A', 'R']
+N1_1: E consistent with assignment
+Assigned N1_1 = E
+Assigning variable N2_1
+Domain of variable N2_1: ['A', 'R']
+Failure
+Undo N1_1 = E
+N1_1: A consistent with assignment
+Assigned N1_1 = A
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'R']
+Failure
+Undo N1_1 = A
+N1_1: R consistent with assignment
+Assigned N1_1 = R
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'A', 'R']
+Failure
+Undo N1_1 = R
+Failure
+Undo N4_0 = M
+N4_0: R consistent with assignment
+Assigned N4_0 = R
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'A', 'R']
+N1_1: E consistent with assignment
+Assigned N1_1 = E
+Assigning variable N2_1
+Domain of variable N2_1: ['A', 'R']
+Failure
+Undo N1_1 = E
+N1_1: A consistent with assignment
+Assigned N1_1 = A
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'R']
+Failure
+Undo N1_1 = A
+N1_1: R consistent with assignment
+Assigned N1_1 = R
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'A', 'R']
+Failure
+Undo N1_1 = R
+Failure
+Undo N4_0 = R
+Failure
+Undo N3_0 = R
+Failure
+Undo N2_0 = E
+N2_0: R consistent with assignment
+Assigned N2_0 = R
+Assigning variable N3_0
+Domain of variable N3_0: ['M', 'E', 'R']
+N3_0: M consistent with assignment
+Assigned N3_0 = M
+Assigning variable N4_0
+Domain of variable N4_0: ['E', 'R']
+N4_0: E consistent with assignment
+Assigned N4_0 = E
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'A', 'R']
+N1_1: E consistent with assignment
+Assigned N1_1 = E
+Assigning variable N3_1
+Domain of variable N3_1: ['A', 'R']
+Failure
+Undo N1_1 = E
+N1_1: A consistent with assignment
+Assigned N1_1 = A
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'R']
+Failure
+Undo N1_1 = A
+N1_1: R consistent with assignment
+Assigned N1_1 = R
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'A', 'R']
+Failure
+Undo N1_1 = R
+Failure
+Undo N4_0 = E
+N4_0: R consistent with assignment
+Assigned N4_0 = R
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'A', 'R']
+N1_1: E consistent with assignment
+Assigned N1_1 = E
+Assigning variable N3_1
+Domain of variable N3_1: ['A', 'R']
+Failure
+Undo N1_1 = E
+N1_1: A consistent with assignment
+Assigned N1_1 = A
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'R']
+Failure
+Undo N1_1 = A
+N1_1: R consistent with assignment
+Assigned N1_1 = R
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'A', 'R']
+Failure
+Undo N1_1 = R
+Failure
+Undo N4_0 = R
+Failure
+Undo N3_0 = M
+N3_0: E consistent with assignment
+Assigned N3_0 = E
+Assigning variable N4_0
+Domain of variable N4_0: ['M', 'R']
+N4_0: M consistent with assignment
+Assigned N4_0 = M
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'A', 'R']
+N1_1: E consistent with assignment
+Assigned N1_1 = E
+Assigning variable N3_1
+Domain of variable N3_1: ['A', 'R']
+Failure
+Undo N1_1 = E
+N1_1: A consistent with assignment
+Assigned N1_1 = A
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'R']
+Failure
+Undo N1_1 = A
+N1_1: R consistent with assignment
+Assigned N1_1 = R
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'A', 'R']
+Failure
+Undo N1_1 = R
+Failure
+Undo N4_0 = M
+N4_0: R consistent with assignment
+Assigned N4_0 = R
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'A', 'R']
+N1_1: E consistent with assignment
+Assigned N1_1 = E
+Assigning variable N3_1
+Domain of variable N3_1: ['A', 'R']
+Failure
+Undo N1_1 = E
+N1_1: A consistent with assignment
+Assigned N1_1 = A
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'R']
+Failure
+Undo N1_1 = A
+N1_1: R consistent with assignment
+Assigned N1_1 = R
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'A', 'R']
+Failure
+Undo N1_1 = R
+Failure
+Undo N4_0 = R
+Failure
+Undo N3_0 = E
+N3_0: R consistent with assignment
+Assigned N3_0 = R
+Assigning variable N4_0
+Domain of variable N4_0: ['M', 'E', 'R']
+N4_0: M consistent with assignment
+Assigned N4_0 = M
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'A', 'R']
+N1_1: E consistent with assignment
+Assigned N1_1 = E
+Assigning variable N4_1
+Domain of variable N4_1: ['A', 'R']
+Failure
+Undo N1_1 = E
+N1_1: A consistent with assignment
+Assigned N1_1 = A
+Assigning variable N4_1
+Domain of variable N4_1: ['E', 'R']
+Failure
+Undo N1_1 = A
+N1_1: R consistent with assignment
+Assigned N1_1 = R
+Assigning variable N4_1
+Domain of variable N4_1: ['E', 'A', 'R']
+Failure
+Undo N1_1 = R
+Failure
+Undo N4_0 = M
+N4_0: E consistent with assignment
+Assigned N4_0 = E
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'A', 'R']
+N1_1: E consistent with assignment
+Assigned N1_1 = E
+Assigning variable N4_1
+Domain of variable N4_1: ['A', 'R']
+Failure
+Undo N1_1 = E
+N1_1: A consistent with assignment
+Assigned N1_1 = A
+Assigning variable N4_1
+Domain of variable N4_1: ['E', 'R']
+Failure
+Undo N1_1 = A
+N1_1: R consistent with assignment
+Assigned N1_1 = R
+Assigning variable N4_1
+Domain of variable N4_1: ['E', 'A', 'R']
+Failure
+Undo N1_1 = R
+Failure
+Undo N4_0 = E
+N4_0: R consistent with assignment
+Assigned N4_0 = R
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'A', 'R']
+N1_1: E consistent with assignment
+Assigned N1_1 = E
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'A', 'R']
+Failure
+Undo N1_1 = E
+N1_1: A consistent with assignment
+Assigned N1_1 = A
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'E', 'R']
+Failure
+Undo N1_1 = A
+N1_1: R consistent with assignment
+Assigned N1_1 = R
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'E', 'A', 'R']
+Failure
+Undo N1_1 = R
+Failure
+Undo N4_0 = R
+Failure
+Undo N3_0 = R
+Failure
+Undo N2_0 = R
+Failure
+Undo N1_0 = M
+N1_0: E consistent with assignment
+Assigned N1_0 = E
+Assigning variable N2_0
+Domain of variable N2_0: ['M', 'R']
+N2_0: M consistent with assignment
+Assigned N2_0 = M
+Assigning variable N3_0
+Domain of variable N3_0: ['M', 'R']
+N3_0: M consistent with assignment
+Assigned N3_0 = M
+Assigning variable N4_0
+Domain of variable N4_0: ['R']
+N4_0: R consistent with assignment
+Assigned N4_0 = R
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'A', 'R']
+N1_1: E consistent with assignment
+Assigned N1_1 = E
+Assigning variable N2_1
+Domain of variable N2_1: ['A', 'R']
+Failure
+Undo N1_1 = E
+N1_1: A consistent with assignment
+Assigned N1_1 = A
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'R']
+Failure
+Undo N1_1 = A
+N1_1: R consistent with assignment
+Assigned N1_1 = R
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'A', 'R']
+Failure
+Undo N1_1 = R
+Failure
+Undo N4_0 = R
+Failure
+Undo N3_0 = M
+N3_0: R consistent with assignment
+Assigned N3_0 = R
+Assigning variable N4_0
+Domain of variable N4_0: ['M', 'R']
+N4_0: M consistent with assignment
+Assigned N4_0 = M
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'A', 'R']
+N1_1: E consistent with assignment
+Assigned N1_1 = E
+Assigning variable N2_1
+Domain of variable N2_1: ['A', 'R']
+Failure
+Undo N1_1 = E
+N1_1: A consistent with assignment
+Assigned N1_1 = A
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'R']
+Failure
+Undo N1_1 = A
+N1_1: R consistent with assignment
+Assigned N1_1 = R
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'A', 'R']
+Failure
+Undo N1_1 = R
+Failure
+Undo N4_0 = M
+N4_0: R consistent with assignment
+Assigned N4_0 = R
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'A', 'R']
+N1_1: E consistent with assignment
+Assigned N1_1 = E
+Assigning variable N2_1
+Domain of variable N2_1: ['A', 'R']
+Failure
+Undo N1_1 = E
+N1_1: A consistent with assignment
+Assigned N1_1 = A
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'R']
+Failure
+Undo N1_1 = A
+N1_1: R consistent with assignment
+Assigned N1_1 = R
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'A', 'R']
+Failure
+Undo N1_1 = R
+Failure
+Undo N4_0 = R
+Failure
+Undo N3_0 = R
+Failure
+Undo N2_0 = M
+N2_0: R consistent with assignment
+Assigned N2_0 = R
+Assigning variable N3_0
+Domain of variable N3_0: ['M', 'R']
+N3_0: M consistent with assignment
+Assigned N3_0 = M
+Assigning variable N4_0
+Domain of variable N4_0: ['M', 'R']
+N4_0: M consistent with assignment
+Assigned N4_0 = M
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'A', 'R']
+N1_1: E consistent with assignment
+Assigned N1_1 = E
+Assigning variable N3_1
+Domain of variable N3_1: ['A', 'R']
+Failure
+Undo N1_1 = E
+N1_1: A consistent with assignment
+Assigned N1_1 = A
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'R']
+Failure
+Undo N1_1 = A
+N1_1: R consistent with assignment
+Assigned N1_1 = R
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'A', 'R']
+Failure
+Undo N1_1 = R
+Failure
+Undo N4_0 = M
+N4_0: R consistent with assignment
+Assigned N4_0 = R
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'A', 'R']
+N1_1: E consistent with assignment
+Assigned N1_1 = E
+Assigning variable N3_1
+Domain of variable N3_1: ['A', 'R']
+Failure
+Undo N1_1 = E
+N1_1: A consistent with assignment
+Assigned N1_1 = A
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'R']
+Failure
+Undo N1_1 = A
+N1_1: R consistent with assignment
+Assigned N1_1 = R
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'A', 'R']
+Failure
+Undo N1_1 = R
+Failure
+Undo N4_0 = R
+Failure
+Undo N3_0 = M
+N3_0: R consistent with assignment
+Assigned N3_0 = R
+Assigning variable N4_0
+Domain of variable N4_0: ['M', 'R']
+N4_0: M consistent with assignment
+Assigned N4_0 = M
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'A', 'R']
+N1_1: E consistent with assignment
+Assigned N1_1 = E
+Assigning variable N4_1
+Domain of variable N4_1: ['A', 'R']
+Failure
+Undo N1_1 = E
+N1_1: A consistent with assignment
+Assigned N1_1 = A
+Assigning variable N4_1
+Domain of variable N4_1: ['E', 'R']
+Failure
+Undo N1_1 = A
+N1_1: R consistent with assignment
+Assigned N1_1 = R
+Assigning variable N4_1
+Domain of variable N4_1: ['E', 'A', 'R']
+Failure
+Undo N1_1 = R
+Failure
+Undo N4_0 = M
+N4_0: R consistent with assignment
+Assigned N4_0 = R
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'A', 'R']
+N1_1: E consistent with assignment
+Assigned N1_1 = E
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'A', 'R']
+Failure
+Undo N1_1 = E
+N1_1: A consistent with assignment
+Assigned N1_1 = A
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'E', 'R']
+Failure
+Undo N1_1 = A
+N1_1: R consistent with assignment
+Assigned N1_1 = R
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'E', 'A', 'R']
+Failure
+Undo N1_1 = R
+Failure
+Undo N4_0 = R
+Failure
+Undo N3_0 = R
+Failure
+Undo N2_0 = R
+Failure
+Undo N1_0 = E
+N1_0: R consistent with assignment
+Assigned N1_0 = R
+Assigning variable N2_0
+Domain of variable N2_0: ['M', 'E', 'R']
+N2_0: M consistent with assignment
+Assigned N2_0 = M
+Assigning variable N3_0
+Domain of variable N3_0: ['M', 'E', 'R']
+N3_0: M consistent with assignment
+Assigned N3_0 = M
+Assigning variable N4_0
+Domain of variable N4_0: ['E', 'R']
+N4_0: E consistent with assignment
+Assigned N4_0 = E
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'A', 'R']
+N2_1: E consistent with assignment
+Assigned N2_1 = E
+Assigning variable N3_1
+Domain of variable N3_1: ['A', 'R']
+Failure
+Undo N2_1 = E
+N2_1: A consistent with assignment
+Assigned N2_1 = A
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'R']
+Failure
+Undo N2_1 = A
+N2_1: R consistent with assignment
+Assigned N2_1 = R
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'A', 'R']
+Failure
+Undo N2_1 = R
+Failure
+Undo N4_0 = E
+N4_0: R consistent with assignment
+Assigned N4_0 = R
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'A', 'R']
+N2_1: E consistent with assignment
+Assigned N2_1 = E
+Assigning variable N3_1
+Domain of variable N3_1: ['A', 'R']
+Failure
+Undo N2_1 = E
+N2_1: A consistent with assignment
+Assigned N2_1 = A
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'R']
+Failure
+Undo N2_1 = A
+N2_1: R consistent with assignment
+Assigned N2_1 = R
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'A', 'R']
+Failure
+Undo N2_1 = R
+Failure
+Undo N4_0 = R
+Failure
+Undo N3_0 = M
+N3_0: E consistent with assignment
+Assigned N3_0 = E
+Assigning variable N4_0
+Domain of variable N4_0: ['M', 'R']
+N4_0: M consistent with assignment
+Assigned N4_0 = M
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'A', 'R']
+N2_1: E consistent with assignment
+Assigned N2_1 = E
+Assigning variable N3_1
+Domain of variable N3_1: ['A', 'R']
+Failure
+Undo N2_1 = E
+N2_1: A consistent with assignment
+Assigned N2_1 = A
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'R']
+Failure
+Undo N2_1 = A
+N2_1: R consistent with assignment
+Assigned N2_1 = R
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'A', 'R']
+Failure
+Undo N2_1 = R
+Failure
+Undo N4_0 = M
+N4_0: R consistent with assignment
+Assigned N4_0 = R
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'A', 'R']
+N2_1: E consistent with assignment
+Assigned N2_1 = E
+Assigning variable N3_1
+Domain of variable N3_1: ['A', 'R']
+Failure
+Undo N2_1 = E
+N2_1: A consistent with assignment
+Assigned N2_1 = A
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'R']
+Failure
+Undo N2_1 = A
+N2_1: R consistent with assignment
+Assigned N2_1 = R
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'A', 'R']
+Failure
+Undo N2_1 = R
+Failure
+Undo N4_0 = R
+Failure
+Undo N3_0 = E
+N3_0: R consistent with assignment
+Assigned N3_0 = R
+Assigning variable N4_0
+Domain of variable N4_0: ['M', 'E', 'R']
+N4_0: M consistent with assignment
+Assigned N4_0 = M
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'A', 'R']
+N2_1: E consistent with assignment
+Assigned N2_1 = E
+Assigning variable N4_1
+Domain of variable N4_1: ['A', 'R']
+Failure
+Undo N2_1 = E
+N2_1: A consistent with assignment
+Assigned N2_1 = A
+Assigning variable N4_1
+Domain of variable N4_1: ['E', 'R']
+Failure
+Undo N2_1 = A
+N2_1: R consistent with assignment
+Assigned N2_1 = R
+Assigning variable N4_1
+Domain of variable N4_1: ['E', 'A', 'R']
+Failure
+Undo N2_1 = R
+Failure
+Undo N4_0 = M
+N4_0: E consistent with assignment
+Assigned N4_0 = E
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'A', 'R']
+N2_1: E consistent with assignment
+Assigned N2_1 = E
+Assigning variable N4_1
+Domain of variable N4_1: ['A', 'R']
+Failure
+Undo N2_1 = E
+N2_1: A consistent with assignment
+Assigned N2_1 = A
+Assigning variable N4_1
+Domain of variable N4_1: ['E', 'R']
+Failure
+Undo N2_1 = A
+N2_1: R consistent with assignment
+Assigned N2_1 = R
+Assigning variable N4_1
+Domain of variable N4_1: ['E', 'A', 'R']
+Failure
+Undo N2_1 = R
+Failure
+Undo N4_0 = E
+N4_0: R consistent with assignment
+Assigned N4_0 = R
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'A', 'R']
+N2_1: E consistent with assignment
+Assigned N2_1 = E
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'A', 'R']
+Failure
+Undo N2_1 = E
+N2_1: A consistent with assignment
+Assigned N2_1 = A
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'E', 'R']
+Failure
+Undo N2_1 = A
+N2_1: R consistent with assignment
+Assigned N2_1 = R
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'E', 'A', 'R']
+Failure
+Undo N2_1 = R
+Failure
+Undo N4_0 = R
+Failure
+Undo N3_0 = R
+Failure
+Undo N2_0 = M
+N2_0: E consistent with assignment
+Assigned N2_0 = E
+Assigning variable N3_0
+Domain of variable N3_0: ['M', 'R']
+N3_0: M consistent with assignment
+Assigned N3_0 = M
+Assigning variable N4_0
+Domain of variable N4_0: ['M', 'R']
+N4_0: M consistent with assignment
+Assigned N4_0 = M
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'A', 'R']
+N2_1: E consistent with assignment
+Assigned N2_1 = E
+Assigning variable N3_1
+Domain of variable N3_1: ['A', 'R']
+Failure
+Undo N2_1 = E
+N2_1: A consistent with assignment
+Assigned N2_1 = A
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'R']
+Failure
+Undo N2_1 = A
+N2_1: R consistent with assignment
+Assigned N2_1 = R
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'A', 'R']
+Failure
+Undo N2_1 = R
+Failure
+Undo N4_0 = M
+N4_0: R consistent with assignment
+Assigned N4_0 = R
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'A', 'R']
+N2_1: E consistent with assignment
+Assigned N2_1 = E
+Assigning variable N3_1
+Domain of variable N3_1: ['A', 'R']
+Failure
+Undo N2_1 = E
+N2_1: A consistent with assignment
+Assigned N2_1 = A
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'R']
+Failure
+Undo N2_1 = A
+N2_1: R consistent with assignment
+Assigned N2_1 = R
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'A', 'R']
+Failure
+Undo N2_1 = R
+Failure
+Undo N4_0 = R
+Failure
+Undo N3_0 = M
+N3_0: R consistent with assignment
+Assigned N3_0 = R
+Assigning variable N4_0
+Domain of variable N4_0: ['M', 'R']
+N4_0: M consistent with assignment
+Assigned N4_0 = M
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'A', 'R']
+N2_1: E consistent with assignment
+Assigned N2_1 = E
+Assigning variable N4_1
+Domain of variable N4_1: ['A', 'R']
+Failure
+Undo N2_1 = E
+N2_1: A consistent with assignment
+Assigned N2_1 = A
+Assigning variable N4_1
+Domain of variable N4_1: ['E', 'R']
+Failure
+Undo N2_1 = A
+N2_1: R consistent with assignment
+Assigned N2_1 = R
+Assigning variable N4_1
+Domain of variable N4_1: ['E', 'A', 'R']
+Failure
+Undo N2_1 = R
+Failure
+Undo N4_0 = M
+N4_0: R consistent with assignment
+Assigned N4_0 = R
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'A', 'R']
+N2_1: E consistent with assignment
+Assigned N2_1 = E
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'A', 'R']
+Failure
+Undo N2_1 = E
+N2_1: A consistent with assignment
+Assigned N2_1 = A
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'E', 'R']
+Failure
+Undo N2_1 = A
+N2_1: R consistent with assignment
+Assigned N2_1 = R
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'E', 'A', 'R']
+Failure
+Undo N2_1 = R
+Failure
+Undo N4_0 = R
+Failure
+Undo N3_0 = R
+Failure
+Undo N2_0 = E
+N2_0: R consistent with assignment
+Assigned N2_0 = R
+Assigning variable N3_0
+Domain of variable N3_0: ['M', 'E', 'R']
+N3_0: M consistent with assignment
+Assigned N3_0 = M
+Assigning variable N4_0
+Domain of variable N4_0: ['M', 'E', 'R']
+N4_0: M consistent with assignment
+Assigned N4_0 = M
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'A', 'R']
+N3_1: E consistent with assignment
+Assigned N3_1 = E
+Assigning variable N4_1
+Domain of variable N4_1: ['A', 'R']
+Failure
+Undo N3_1 = E
+N3_1: A consistent with assignment
+Assigned N3_1 = A
+Assigning variable N4_1
+Domain of variable N4_1: ['E', 'R']
+Failure
+Undo N3_1 = A
+N3_1: R consistent with assignment
+Assigned N3_1 = R
+Assigning variable N4_1
+Domain of variable N4_1: ['E', 'A', 'R']
+Failure
+Undo N3_1 = R
+Failure
+Undo N4_0 = M
+N4_0: E consistent with assignment
+Assigned N4_0 = E
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'A', 'R']
+N3_1: E consistent with assignment
+Assigned N3_1 = E
+Assigning variable N4_1
+Domain of variable N4_1: ['A', 'R']
+Failure
+Undo N3_1 = E
+N3_1: A consistent with assignment
+Assigned N3_1 = A
+Assigning variable N4_1
+Domain of variable N4_1: ['E', 'R']
+Failure
+Undo N3_1 = A
+N3_1: R consistent with assignment
+Assigned N3_1 = R
+Assigning variable N4_1
+Domain of variable N4_1: ['E', 'A', 'R']
+Failure
+Undo N3_1 = R
+Failure
+Undo N4_0 = E
+N4_0: R consistent with assignment
+Assigned N4_0 = R
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'A', 'R']
+N3_1: E consistent with assignment
+Assigned N3_1 = E
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'A', 'R']
+Failure
+Undo N3_1 = E
+N3_1: A consistent with assignment
+Assigned N3_1 = A
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'E', 'R']
+Failure
+Undo N3_1 = A
+N3_1: R consistent with assignment
+Assigned N3_1 = R
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'E', 'A', 'R']
+Failure
+Undo N3_1 = R
+Failure
+Undo N4_0 = R
+Failure
+Undo N3_0 = M
+N3_0: E consistent with assignment
+Assigned N3_0 = E
+Assigning variable N4_0
+Domain of variable N4_0: ['M', 'R']
+N4_0: M consistent with assignment
+Assigned N4_0 = M
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'A', 'R']
+N3_1: E consistent with assignment
+Assigned N3_1 = E
+Assigning variable N4_1
+Domain of variable N4_1: ['A', 'R']
+Failure
+Undo N3_1 = E
+N3_1: A consistent with assignment
+Assigned N3_1 = A
+Assigning variable N4_1
+Domain of variable N4_1: ['E', 'R']
+Failure
+Undo N3_1 = A
+N3_1: R consistent with assignment
+Assigned N3_1 = R
+Assigning variable N4_1
+Domain of variable N4_1: ['E', 'A', 'R']
+Failure
+Undo N3_1 = R
+Failure
+Undo N4_0 = M
+N4_0: R consistent with assignment
+Assigned N4_0 = R
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'A', 'R']
+N3_1: E consistent with assignment
+Assigned N3_1 = E
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'A', 'R']
+Failure
+Undo N3_1 = E
+N3_1: A consistent with assignment
+Assigned N3_1 = A
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'E', 'R']
+Failure
+Undo N3_1 = A
+N3_1: R consistent with assignment
+Assigned N3_1 = R
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'E', 'A', 'R']
+Failure
+Undo N3_1 = R
+Failure
+Undo N4_0 = R
+Failure
+Undo N3_0 = E
+N3_0: R consistent with assignment
+Assigned N3_0 = R
+Assigning variable N4_0
+Domain of variable N4_0: ['M', 'E', 'R']
+N4_0: M consistent with assignment
+Assigned N4_0 = M
+Assigning variable N4_1
+Domain of variable N4_1: ['E', 'A', 'R']
+N4_1: E consistent with assignment
+Assigned N4_1 = E
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'A', 'R']
+Failure
+Undo N4_1 = E
+N4_1: A consistent with assignment
+Assigned N4_1 = A
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'E', 'R']
+Failure
+Undo N4_1 = A
+N4_1: R consistent with assignment
+Assigned N4_1 = R
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'E', 'A', 'R']
+Failure
+Undo N4_1 = R
+Failure
+Undo N4_0 = M
+N4_0: E consistent with assignment
+Assigned N4_0 = E
+Assigning variable N4_1
+Domain of variable N4_1: ['E', 'A', 'R']
+N4_1: E consistent with assignment
+Assigned N4_1 = E
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'A', 'R']
+Failure
+Undo N4_1 = E
+N4_1: A consistent with assignment
+Assigned N4_1 = A
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'E', 'R']
+Failure
+Undo N4_1 = A
+N4_1: R consistent with assignment
+Assigned N4_1 = R
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'E', 'A', 'R']
+Failure
+Undo N4_1 = R
+Failure
+Undo N4_0 = E
+N4_0: R consistent with assignment
+Assigned N4_0 = R
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'E', 'A', 'R']
+N0_1: M consistent with assignment
+Assigned N0_1 = M
+Assigning variable N1_1
+Domain of variable N1_1: ['M', 'E', 'A', 'R']
+Failure
+Undo N0_1 = M
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N1_1
+Domain of variable N1_1: ['M', 'A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N1_1
+Domain of variable N1_1: ['M', 'E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N1_1
+Domain of variable N1_1: ['M', 'E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = R
+Failure
+Undo N3_0 = R
+Failure
+Undo N2_0 = R
+Failure
+Undo N1_0 = R
+Failure
+Undo N0_0 = A
+N0_0: R consistent with assignment
+Assigned N0_0 = R
+Assigning variable N1_0
+Domain of variable N1_0: ['M', 'E', 'A', 'R']
+N1_0: M consistent with assignment
+Assigned N1_0 = M
+Assigning variable N2_0
+Domain of variable N2_0: ['M', 'E', 'A', 'R']
+N2_0: M consistent with assignment
+Assigned N2_0 = M
+Assigning variable N3_0
+Domain of variable N3_0: ['E', 'A', 'R']
+N3_0: E consistent with assignment
+Assigned N3_0 = E
+Assigning variable N4_0
+Domain of variable N4_0: ['A', 'R']
+N4_0: A consistent with assignment
+Assigned N4_0 = A
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'A', 'R']
+N1_1: E consistent with assignment
+Assigned N1_1 = E
+Assigning variable N2_1
+Domain of variable N2_1: ['A', 'R']
+Failure
+Undo N1_1 = E
+N1_1: A consistent with assignment
+Assigned N1_1 = A
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'R']
+Failure
+Undo N1_1 = A
+N1_1: R consistent with assignment
+Assigned N1_1 = R
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'A', 'R']
+Failure
+Undo N1_1 = R
+Failure
+Undo N4_0 = A
+N4_0: R consistent with assignment
+Assigned N4_0 = R
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'A', 'R']
+N1_1: E consistent with assignment
+Assigned N1_1 = E
+Assigning variable N2_1
+Domain of variable N2_1: ['A', 'R']
+Failure
+Undo N1_1 = E
+N1_1: A consistent with assignment
+Assigned N1_1 = A
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'R']
+Failure
+Undo N1_1 = A
+N1_1: R consistent with assignment
+Assigned N1_1 = R
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'A', 'R']
+Failure
+Undo N1_1 = R
+Failure
+Undo N4_0 = R
+Failure
+Undo N3_0 = E
+N3_0: A consistent with assignment
+Assigned N3_0 = A
+Assigning variable N4_0
+Domain of variable N4_0: ['E', 'R']
+N4_0: E consistent with assignment
+Assigned N4_0 = E
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'A', 'R']
+N1_1: E consistent with assignment
+Assigned N1_1 = E
+Assigning variable N2_1
+Domain of variable N2_1: ['A', 'R']
+Failure
+Undo N1_1 = E
+N1_1: A consistent with assignment
+Assigned N1_1 = A
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'R']
+Failure
+Undo N1_1 = A
+N1_1: R consistent with assignment
+Assigned N1_1 = R
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'A', 'R']
+Failure
+Undo N1_1 = R
+Failure
+Undo N4_0 = E
+N4_0: R consistent with assignment
+Assigned N4_0 = R
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'A', 'R']
+N1_1: E consistent with assignment
+Assigned N1_1 = E
+Assigning variable N2_1
+Domain of variable N2_1: ['A', 'R']
+Failure
+Undo N1_1 = E
+N1_1: A consistent with assignment
+Assigned N1_1 = A
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'R']
+Failure
+Undo N1_1 = A
+N1_1: R consistent with assignment
+Assigned N1_1 = R
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'A', 'R']
+Failure
+Undo N1_1 = R
+Failure
+Undo N4_0 = R
+Failure
+Undo N3_0 = A
+N3_0: R consistent with assignment
+Assigned N3_0 = R
+Assigning variable N4_0
+Domain of variable N4_0: ['E', 'A', 'R']
+N4_0: E consistent with assignment
+Assigned N4_0 = E
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'A', 'R']
+N1_1: E consistent with assignment
+Assigned N1_1 = E
+Assigning variable N2_1
+Domain of variable N2_1: ['A', 'R']
+Failure
+Undo N1_1 = E
+N1_1: A consistent with assignment
+Assigned N1_1 = A
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'R']
+Failure
+Undo N1_1 = A
+N1_1: R consistent with assignment
+Assigned N1_1 = R
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'A', 'R']
+Failure
+Undo N1_1 = R
+Failure
+Undo N4_0 = E
+N4_0: A consistent with assignment
+Assigned N4_0 = A
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'A', 'R']
+N1_1: E consistent with assignment
+Assigned N1_1 = E
+Assigning variable N2_1
+Domain of variable N2_1: ['A', 'R']
+Failure
+Undo N1_1 = E
+N1_1: A consistent with assignment
+Assigned N1_1 = A
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'R']
+Failure
+Undo N1_1 = A
+N1_1: R consistent with assignment
+Assigned N1_1 = R
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'A', 'R']
+Failure
+Undo N1_1 = R
+Failure
+Undo N4_0 = A
+N4_0: R consistent with assignment
+Assigned N4_0 = R
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'A', 'R']
+N1_1: E consistent with assignment
+Assigned N1_1 = E
+Assigning variable N2_1
+Domain of variable N2_1: ['A', 'R']
+Failure
+Undo N1_1 = E
+N1_1: A consistent with assignment
+Assigned N1_1 = A
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'R']
+Failure
+Undo N1_1 = A
+N1_1: R consistent with assignment
+Assigned N1_1 = R
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'A', 'R']
+Failure
+Undo N1_1 = R
+Failure
+Undo N4_0 = R
+Failure
+Undo N3_0 = R
+Failure
+Undo N2_0 = M
+N2_0: E consistent with assignment
+Assigned N2_0 = E
+Assigning variable N3_0
+Domain of variable N3_0: ['M', 'A', 'R']
+N3_0: M consistent with assignment
+Assigned N3_0 = M
+Assigning variable N4_0
+Domain of variable N4_0: ['A', 'R']
+N4_0: A consistent with assignment
+Assigned N4_0 = A
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'A', 'R']
+N1_1: E consistent with assignment
+Assigned N1_1 = E
+Assigning variable N2_1
+Domain of variable N2_1: ['A', 'R']
+Failure
+Undo N1_1 = E
+N1_1: A consistent with assignment
+Assigned N1_1 = A
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'R']
+Failure
+Undo N1_1 = A
+N1_1: R consistent with assignment
+Assigned N1_1 = R
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'A', 'R']
+Failure
+Undo N1_1 = R
+Failure
+Undo N4_0 = A
+N4_0: R consistent with assignment
+Assigned N4_0 = R
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'A', 'R']
+N1_1: E consistent with assignment
+Assigned N1_1 = E
+Assigning variable N2_1
+Domain of variable N2_1: ['A', 'R']
+Failure
+Undo N1_1 = E
+N1_1: A consistent with assignment
+Assigned N1_1 = A
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'R']
+Failure
+Undo N1_1 = A
+N1_1: R consistent with assignment
+Assigned N1_1 = R
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'A', 'R']
+Failure
+Undo N1_1 = R
+Failure
+Undo N4_0 = R
+Failure
+Undo N3_0 = M
+N3_0: A consistent with assignment
+Assigned N3_0 = A
+Assigning variable N4_0
+Domain of variable N4_0: ['M', 'R']
+N4_0: M consistent with assignment
+Assigned N4_0 = M
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'A', 'R']
+N1_1: E consistent with assignment
+Assigned N1_1 = E
+Assigning variable N2_1
+Domain of variable N2_1: ['A', 'R']
+Failure
+Undo N1_1 = E
+N1_1: A consistent with assignment
+Assigned N1_1 = A
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'R']
+Failure
+Undo N1_1 = A
+N1_1: R consistent with assignment
+Assigned N1_1 = R
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'A', 'R']
+Failure
+Undo N1_1 = R
+Failure
+Undo N4_0 = M
+N4_0: R consistent with assignment
+Assigned N4_0 = R
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'A', 'R']
+N1_1: E consistent with assignment
+Assigned N1_1 = E
+Assigning variable N2_1
+Domain of variable N2_1: ['A', 'R']
+Failure
+Undo N1_1 = E
+N1_1: A consistent with assignment
+Assigned N1_1 = A
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'R']
+Failure
+Undo N1_1 = A
+N1_1: R consistent with assignment
+Assigned N1_1 = R
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'A', 'R']
+Failure
+Undo N1_1 = R
+Failure
+Undo N4_0 = R
+Failure
+Undo N3_0 = A
+N3_0: R consistent with assignment
+Assigned N3_0 = R
+Assigning variable N4_0
+Domain of variable N4_0: ['M', 'A', 'R']
+N4_0: M consistent with assignment
+Assigned N4_0 = M
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'A', 'R']
+N1_1: E consistent with assignment
+Assigned N1_1 = E
+Assigning variable N2_1
+Domain of variable N2_1: ['A', 'R']
+Failure
+Undo N1_1 = E
+N1_1: A consistent with assignment
+Assigned N1_1 = A
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'R']
+Failure
+Undo N1_1 = A
+N1_1: R consistent with assignment
+Assigned N1_1 = R
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'A', 'R']
+Failure
+Undo N1_1 = R
+Failure
+Undo N4_0 = M
+N4_0: A consistent with assignment
+Assigned N4_0 = A
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'A', 'R']
+N1_1: E consistent with assignment
+Assigned N1_1 = E
+Assigning variable N2_1
+Domain of variable N2_1: ['A', 'R']
+Failure
+Undo N1_1 = E
+N1_1: A consistent with assignment
+Assigned N1_1 = A
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'R']
+Failure
+Undo N1_1 = A
+N1_1: R consistent with assignment
+Assigned N1_1 = R
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'A', 'R']
+Failure
+Undo N1_1 = R
+Failure
+Undo N4_0 = A
+N4_0: R consistent with assignment
+Assigned N4_0 = R
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'A', 'R']
+N1_1: E consistent with assignment
+Assigned N1_1 = E
+Assigning variable N2_1
+Domain of variable N2_1: ['A', 'R']
+Failure
+Undo N1_1 = E
+N1_1: A consistent with assignment
+Assigned N1_1 = A
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'R']
+Failure
+Undo N1_1 = A
+N1_1: R consistent with assignment
+Assigned N1_1 = R
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'A', 'R']
+Failure
+Undo N1_1 = R
+Failure
+Undo N4_0 = R
+Failure
+Undo N3_0 = R
+Failure
+Undo N2_0 = E
+N2_0: A consistent with assignment
+Assigned N2_0 = A
+Assigning variable N3_0
+Domain of variable N3_0: ['M', 'E', 'R']
+N3_0: M consistent with assignment
+Assigned N3_0 = M
+Assigning variable N4_0
+Domain of variable N4_0: ['E', 'R']
+N4_0: E consistent with assignment
+Assigned N4_0 = E
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'A', 'R']
+N1_1: E consistent with assignment
+Assigned N1_1 = E
+Assigning variable N3_1
+Domain of variable N3_1: ['A', 'R']
+Failure
+Undo N1_1 = E
+N1_1: A consistent with assignment
+Assigned N1_1 = A
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'R']
+Failure
+Undo N1_1 = A
+N1_1: R consistent with assignment
+Assigned N1_1 = R
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'A', 'R']
+Failure
+Undo N1_1 = R
+Failure
+Undo N4_0 = E
+N4_0: R consistent with assignment
+Assigned N4_0 = R
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'A', 'R']
+N1_1: E consistent with assignment
+Assigned N1_1 = E
+Assigning variable N3_1
+Domain of variable N3_1: ['A', 'R']
+Failure
+Undo N1_1 = E
+N1_1: A consistent with assignment
+Assigned N1_1 = A
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'R']
+Failure
+Undo N1_1 = A
+N1_1: R consistent with assignment
+Assigned N1_1 = R
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'A', 'R']
+Failure
+Undo N1_1 = R
+Failure
+Undo N4_0 = R
+Failure
+Undo N3_0 = M
+N3_0: E consistent with assignment
+Assigned N3_0 = E
+Assigning variable N4_0
+Domain of variable N4_0: ['M', 'R']
+N4_0: M consistent with assignment
+Assigned N4_0 = M
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'A', 'R']
+N1_1: E consistent with assignment
+Assigned N1_1 = E
+Assigning variable N3_1
+Domain of variable N3_1: ['A', 'R']
+Failure
+Undo N1_1 = E
+N1_1: A consistent with assignment
+Assigned N1_1 = A
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'R']
+Failure
+Undo N1_1 = A
+N1_1: R consistent with assignment
+Assigned N1_1 = R
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'A', 'R']
+Failure
+Undo N1_1 = R
+Failure
+Undo N4_0 = M
+N4_0: R consistent with assignment
+Assigned N4_0 = R
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'A', 'R']
+N1_1: E consistent with assignment
+Assigned N1_1 = E
+Assigning variable N3_1
+Domain of variable N3_1: ['A', 'R']
+Failure
+Undo N1_1 = E
+N1_1: A consistent with assignment
+Assigned N1_1 = A
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'R']
+Failure
+Undo N1_1 = A
+N1_1: R consistent with assignment
+Assigned N1_1 = R
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'A', 'R']
+Failure
+Undo N1_1 = R
+Failure
+Undo N4_0 = R
+Failure
+Undo N3_0 = E
+N3_0: R consistent with assignment
+Assigned N3_0 = R
+Assigning variable N4_0
+Domain of variable N4_0: ['M', 'E', 'R']
+N4_0: M consistent with assignment
+Assigned N4_0 = M
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'A', 'R']
+N1_1: E consistent with assignment
+Assigned N1_1 = E
+Assigning variable N4_1
+Domain of variable N4_1: ['A', 'R']
+Failure
+Undo N1_1 = E
+N1_1: A consistent with assignment
+Assigned N1_1 = A
+Assigning variable N4_1
+Domain of variable N4_1: ['E', 'R']
+Failure
+Undo N1_1 = A
+N1_1: R consistent with assignment
+Assigned N1_1 = R
+Assigning variable N4_1
+Domain of variable N4_1: ['E', 'A', 'R']
+Failure
+Undo N1_1 = R
+Failure
+Undo N4_0 = M
+N4_0: E consistent with assignment
+Assigned N4_0 = E
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'A', 'R']
+N1_1: E consistent with assignment
+Assigned N1_1 = E
+Assigning variable N4_1
+Domain of variable N4_1: ['A', 'R']
+Failure
+Undo N1_1 = E
+N1_1: A consistent with assignment
+Assigned N1_1 = A
+Assigning variable N4_1
+Domain of variable N4_1: ['E', 'R']
+Failure
+Undo N1_1 = A
+N1_1: R consistent with assignment
+Assigned N1_1 = R
+Assigning variable N4_1
+Domain of variable N4_1: ['E', 'A', 'R']
+Failure
+Undo N1_1 = R
+Failure
+Undo N4_0 = E
+N4_0: R consistent with assignment
+Assigned N4_0 = R
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'A', 'R']
+N1_1: E consistent with assignment
+Assigned N1_1 = E
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'A', 'R']
+Failure
+Undo N1_1 = E
+N1_1: A consistent with assignment
+Assigned N1_1 = A
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'E', 'R']
+Failure
+Undo N1_1 = A
+N1_1: R consistent with assignment
+Assigned N1_1 = R
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'E', 'A', 'R']
+Failure
+Undo N1_1 = R
+Failure
+Undo N4_0 = R
+Failure
+Undo N3_0 = R
+Failure
+Undo N2_0 = A
+N2_0: R consistent with assignment
+Assigned N2_0 = R
+Assigning variable N3_0
+Domain of variable N3_0: ['M', 'E', 'A', 'R']
+N3_0: M consistent with assignment
+Assigned N3_0 = M
+Assigning variable N4_0
+Domain of variable N4_0: ['E', 'A', 'R']
+N4_0: E consistent with assignment
+Assigned N4_0 = E
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'A', 'R']
+N1_1: E consistent with assignment
+Assigned N1_1 = E
+Assigning variable N3_1
+Domain of variable N3_1: ['A', 'R']
+Failure
+Undo N1_1 = E
+N1_1: A consistent with assignment
+Assigned N1_1 = A
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'R']
+Failure
+Undo N1_1 = A
+N1_1: R consistent with assignment
+Assigned N1_1 = R
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'A', 'R']
+Failure
+Undo N1_1 = R
+Failure
+Undo N4_0 = E
+N4_0: A consistent with assignment
+Assigned N4_0 = A
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'A', 'R']
+N1_1: E consistent with assignment
+Assigned N1_1 = E
+Assigning variable N3_1
+Domain of variable N3_1: ['A', 'R']
+Failure
+Undo N1_1 = E
+N1_1: A consistent with assignment
+Assigned N1_1 = A
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'R']
+Failure
+Undo N1_1 = A
+N1_1: R consistent with assignment
+Assigned N1_1 = R
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'A', 'R']
+Failure
+Undo N1_1 = R
+Failure
+Undo N4_0 = A
+N4_0: R consistent with assignment
+Assigned N4_0 = R
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'A', 'R']
+N1_1: E consistent with assignment
+Assigned N1_1 = E
+Assigning variable N3_1
+Domain of variable N3_1: ['A', 'R']
+Failure
+Undo N1_1 = E
+N1_1: A consistent with assignment
+Assigned N1_1 = A
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'R']
+Failure
+Undo N1_1 = A
+N1_1: R consistent with assignment
+Assigned N1_1 = R
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'A', 'R']
+Failure
+Undo N1_1 = R
+Failure
+Undo N4_0 = R
+Failure
+Undo N3_0 = M
+N3_0: E consistent with assignment
+Assigned N3_0 = E
+Assigning variable N4_0
+Domain of variable N4_0: ['M', 'A', 'R']
+N4_0: M consistent with assignment
+Assigned N4_0 = M
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'A', 'R']
+N1_1: E consistent with assignment
+Assigned N1_1 = E
+Assigning variable N3_1
+Domain of variable N3_1: ['A', 'R']
+Failure
+Undo N1_1 = E
+N1_1: A consistent with assignment
+Assigned N1_1 = A
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'R']
+Failure
+Undo N1_1 = A
+N1_1: R consistent with assignment
+Assigned N1_1 = R
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'A', 'R']
+Failure
+Undo N1_1 = R
+Failure
+Undo N4_0 = M
+N4_0: A consistent with assignment
+Assigned N4_0 = A
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'A', 'R']
+N1_1: E consistent with assignment
+Assigned N1_1 = E
+Assigning variable N3_1
+Domain of variable N3_1: ['A', 'R']
+Failure
+Undo N1_1 = E
+N1_1: A consistent with assignment
+Assigned N1_1 = A
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'R']
+Failure
+Undo N1_1 = A
+N1_1: R consistent with assignment
+Assigned N1_1 = R
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'A', 'R']
+Failure
+Undo N1_1 = R
+Failure
+Undo N4_0 = A
+N4_0: R consistent with assignment
+Assigned N4_0 = R
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'A', 'R']
+N1_1: E consistent with assignment
+Assigned N1_1 = E
+Assigning variable N3_1
+Domain of variable N3_1: ['A', 'R']
+Failure
+Undo N1_1 = E
+N1_1: A consistent with assignment
+Assigned N1_1 = A
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'R']
+Failure
+Undo N1_1 = A
+N1_1: R consistent with assignment
+Assigned N1_1 = R
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'A', 'R']
+Failure
+Undo N1_1 = R
+Failure
+Undo N4_0 = R
+Failure
+Undo N3_0 = E
+N3_0: A consistent with assignment
+Assigned N3_0 = A
+Assigning variable N4_0
+Domain of variable N4_0: ['M', 'E', 'R']
+N4_0: M consistent with assignment
+Assigned N4_0 = M
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'A', 'R']
+N1_1: E consistent with assignment
+Assigned N1_1 = E
+Assigning variable N4_1
+Domain of variable N4_1: ['A', 'R']
+Failure
+Undo N1_1 = E
+N1_1: A consistent with assignment
+Assigned N1_1 = A
+Assigning variable N4_1
+Domain of variable N4_1: ['E', 'R']
+Failure
+Undo N1_1 = A
+N1_1: R consistent with assignment
+Assigned N1_1 = R
+Assigning variable N4_1
+Domain of variable N4_1: ['E', 'A', 'R']
+Failure
+Undo N1_1 = R
+Failure
+Undo N4_0 = M
+N4_0: E consistent with assignment
+Assigned N4_0 = E
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'A', 'R']
+N1_1: E consistent with assignment
+Assigned N1_1 = E
+Assigning variable N4_1
+Domain of variable N4_1: ['A', 'R']
+Failure
+Undo N1_1 = E
+N1_1: A consistent with assignment
+Assigned N1_1 = A
+Assigning variable N4_1
+Domain of variable N4_1: ['E', 'R']
+Failure
+Undo N1_1 = A
+N1_1: R consistent with assignment
+Assigned N1_1 = R
+Assigning variable N4_1
+Domain of variable N4_1: ['E', 'A', 'R']
+Failure
+Undo N1_1 = R
+Failure
+Undo N4_0 = E
+N4_0: R consistent with assignment
+Assigned N4_0 = R
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'A', 'R']
+N1_1: E consistent with assignment
+Assigned N1_1 = E
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'A', 'R']
+Failure
+Undo N1_1 = E
+N1_1: A consistent with assignment
+Assigned N1_1 = A
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'E', 'R']
+Failure
+Undo N1_1 = A
+N1_1: R consistent with assignment
+Assigned N1_1 = R
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'E', 'A', 'R']
+Failure
+Undo N1_1 = R
+Failure
+Undo N4_0 = R
+Failure
+Undo N3_0 = A
+N3_0: R consistent with assignment
+Assigned N3_0 = R
+Assigning variable N4_0
+Domain of variable N4_0: ['M', 'E', 'A', 'R']
+N4_0: M consistent with assignment
+Assigned N4_0 = M
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'A', 'R']
+N1_1: E consistent with assignment
+Assigned N1_1 = E
+Assigning variable N4_1
+Domain of variable N4_1: ['A', 'R']
+Failure
+Undo N1_1 = E
+N1_1: A consistent with assignment
+Assigned N1_1 = A
+Assigning variable N4_1
+Domain of variable N4_1: ['E', 'R']
+Failure
+Undo N1_1 = A
+N1_1: R consistent with assignment
+Assigned N1_1 = R
+Assigning variable N4_1
+Domain of variable N4_1: ['E', 'A', 'R']
+Failure
+Undo N1_1 = R
+Failure
+Undo N4_0 = M
+N4_0: E consistent with assignment
+Assigned N4_0 = E
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'A', 'R']
+N1_1: E consistent with assignment
+Assigned N1_1 = E
+Assigning variable N4_1
+Domain of variable N4_1: ['A', 'R']
+Failure
+Undo N1_1 = E
+N1_1: A consistent with assignment
+Assigned N1_1 = A
+Assigning variable N4_1
+Domain of variable N4_1: ['E', 'R']
+Failure
+Undo N1_1 = A
+N1_1: R consistent with assignment
+Assigned N1_1 = R
+Assigning variable N4_1
+Domain of variable N4_1: ['E', 'A', 'R']
+Failure
+Undo N1_1 = R
+Failure
+Undo N4_0 = E
+N4_0: A consistent with assignment
+Assigned N4_0 = A
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'A', 'R']
+N1_1: E consistent with assignment
+Assigned N1_1 = E
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'A', 'R']
+Failure
+Undo N1_1 = E
+N1_1: A consistent with assignment
+Assigned N1_1 = A
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'E', 'R']
+Failure
+Undo N1_1 = A
+N1_1: R consistent with assignment
+Assigned N1_1 = R
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'E', 'A', 'R']
+Failure
+Undo N1_1 = R
+Failure
+Undo N4_0 = A
+N4_0: R consistent with assignment
+Assigned N4_0 = R
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'A', 'R']
+N1_1: E consistent with assignment
+Assigned N1_1 = E
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'A', 'R']
+Failure
+Undo N1_1 = E
+N1_1: A consistent with assignment
+Assigned N1_1 = A
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'E', 'R']
+Failure
+Undo N1_1 = A
+N1_1: R consistent with assignment
+Assigned N1_1 = R
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'E', 'A', 'R']
+Failure
+Undo N1_1 = R
+Failure
+Undo N4_0 = R
+Failure
+Undo N3_0 = R
+Failure
+Undo N2_0 = R
+Failure
+Undo N1_0 = M
+N1_0: E consistent with assignment
+Assigned N1_0 = E
+Assigning variable N2_0
+Domain of variable N2_0: ['M', 'A', 'R']
+N2_0: M consistent with assignment
+Assigned N2_0 = M
+Assigning variable N3_0
+Domain of variable N3_0: ['M', 'A', 'R']
+N3_0: M consistent with assignment
+Assigned N3_0 = M
+Assigning variable N4_0
+Domain of variable N4_0: ['A', 'R']
+N4_0: A consistent with assignment
+Assigned N4_0 = A
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'A', 'R']
+N1_1: E consistent with assignment
+Assigned N1_1 = E
+Assigning variable N2_1
+Domain of variable N2_1: ['A', 'R']
+Failure
+Undo N1_1 = E
+N1_1: A consistent with assignment
+Assigned N1_1 = A
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'R']
+Failure
+Undo N1_1 = A
+N1_1: R consistent with assignment
+Assigned N1_1 = R
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'A', 'R']
+Failure
+Undo N1_1 = R
+Failure
+Undo N4_0 = A
+N4_0: R consistent with assignment
+Assigned N4_0 = R
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'A', 'R']
+N1_1: E consistent with assignment
+Assigned N1_1 = E
+Assigning variable N2_1
+Domain of variable N2_1: ['A', 'R']
+Failure
+Undo N1_1 = E
+N1_1: A consistent with assignment
+Assigned N1_1 = A
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'R']
+Failure
+Undo N1_1 = A
+N1_1: R consistent with assignment
+Assigned N1_1 = R
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'A', 'R']
+Failure
+Undo N1_1 = R
+Failure
+Undo N4_0 = R
+Failure
+Undo N3_0 = M
+N3_0: A consistent with assignment
+Assigned N3_0 = A
+Assigning variable N4_0
+Domain of variable N4_0: ['M', 'R']
+N4_0: M consistent with assignment
+Assigned N4_0 = M
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'A', 'R']
+N1_1: E consistent with assignment
+Assigned N1_1 = E
+Assigning variable N2_1
+Domain of variable N2_1: ['A', 'R']
+Failure
+Undo N1_1 = E
+N1_1: A consistent with assignment
+Assigned N1_1 = A
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'R']
+Failure
+Undo N1_1 = A
+N1_1: R consistent with assignment
+Assigned N1_1 = R
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'A', 'R']
+Failure
+Undo N1_1 = R
+Failure
+Undo N4_0 = M
+N4_0: R consistent with assignment
+Assigned N4_0 = R
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'A', 'R']
+N1_1: E consistent with assignment
+Assigned N1_1 = E
+Assigning variable N2_1
+Domain of variable N2_1: ['A', 'R']
+Failure
+Undo N1_1 = E
+N1_1: A consistent with assignment
+Assigned N1_1 = A
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'R']
+Failure
+Undo N1_1 = A
+N1_1: R consistent with assignment
+Assigned N1_1 = R
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'A', 'R']
+Failure
+Undo N1_1 = R
+Failure
+Undo N4_0 = R
+Failure
+Undo N3_0 = A
+N3_0: R consistent with assignment
+Assigned N3_0 = R
+Assigning variable N4_0
+Domain of variable N4_0: ['M', 'A', 'R']
+N4_0: M consistent with assignment
+Assigned N4_0 = M
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'A', 'R']
+N1_1: E consistent with assignment
+Assigned N1_1 = E
+Assigning variable N2_1
+Domain of variable N2_1: ['A', 'R']
+Failure
+Undo N1_1 = E
+N1_1: A consistent with assignment
+Assigned N1_1 = A
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'R']
+Failure
+Undo N1_1 = A
+N1_1: R consistent with assignment
+Assigned N1_1 = R
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'A', 'R']
+Failure
+Undo N1_1 = R
+Failure
+Undo N4_0 = M
+N4_0: A consistent with assignment
+Assigned N4_0 = A
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'A', 'R']
+N1_1: E consistent with assignment
+Assigned N1_1 = E
+Assigning variable N2_1
+Domain of variable N2_1: ['A', 'R']
+Failure
+Undo N1_1 = E
+N1_1: A consistent with assignment
+Assigned N1_1 = A
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'R']
+Failure
+Undo N1_1 = A
+N1_1: R consistent with assignment
+Assigned N1_1 = R
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'A', 'R']
+Failure
+Undo N1_1 = R
+Failure
+Undo N4_0 = A
+N4_0: R consistent with assignment
+Assigned N4_0 = R
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'A', 'R']
+N1_1: E consistent with assignment
+Assigned N1_1 = E
+Assigning variable N2_1
+Domain of variable N2_1: ['A', 'R']
+Failure
+Undo N1_1 = E
+N1_1: A consistent with assignment
+Assigned N1_1 = A
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'R']
+Failure
+Undo N1_1 = A
+N1_1: R consistent with assignment
+Assigned N1_1 = R
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'A', 'R']
+Failure
+Undo N1_1 = R
+Failure
+Undo N4_0 = R
+Failure
+Undo N3_0 = R
+Failure
+Undo N2_0 = M
+N2_0: A consistent with assignment
+Assigned N2_0 = A
+Assigning variable N3_0
+Domain of variable N3_0: ['M', 'R']
+N3_0: M consistent with assignment
+Assigned N3_0 = M
+Assigning variable N4_0
+Domain of variable N4_0: ['M', 'R']
+N4_0: M consistent with assignment
+Assigned N4_0 = M
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'A', 'R']
+N1_1: E consistent with assignment
+Assigned N1_1 = E
+Assigning variable N3_1
+Domain of variable N3_1: ['A', 'R']
+Failure
+Undo N1_1 = E
+N1_1: A consistent with assignment
+Assigned N1_1 = A
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'R']
+Failure
+Undo N1_1 = A
+N1_1: R consistent with assignment
+Assigned N1_1 = R
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'A', 'R']
+Failure
+Undo N1_1 = R
+Failure
+Undo N4_0 = M
+N4_0: R consistent with assignment
+Assigned N4_0 = R
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'A', 'R']
+N1_1: E consistent with assignment
+Assigned N1_1 = E
+Assigning variable N3_1
+Domain of variable N3_1: ['A', 'R']
+Failure
+Undo N1_1 = E
+N1_1: A consistent with assignment
+Assigned N1_1 = A
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'R']
+Failure
+Undo N1_1 = A
+N1_1: R consistent with assignment
+Assigned N1_1 = R
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'A', 'R']
+Failure
+Undo N1_1 = R
+Failure
+Undo N4_0 = R
+Failure
+Undo N3_0 = M
+N3_0: R consistent with assignment
+Assigned N3_0 = R
+Assigning variable N4_0
+Domain of variable N4_0: ['M', 'R']
+N4_0: M consistent with assignment
+Assigned N4_0 = M
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'A', 'R']
+N1_1: E consistent with assignment
+Assigned N1_1 = E
+Assigning variable N4_1
+Domain of variable N4_1: ['A', 'R']
+Failure
+Undo N1_1 = E
+N1_1: A consistent with assignment
+Assigned N1_1 = A
+Assigning variable N4_1
+Domain of variable N4_1: ['E', 'R']
+Failure
+Undo N1_1 = A
+N1_1: R consistent with assignment
+Assigned N1_1 = R
+Assigning variable N4_1
+Domain of variable N4_1: ['E', 'A', 'R']
+Failure
+Undo N1_1 = R
+Failure
+Undo N4_0 = M
+N4_0: R consistent with assignment
+Assigned N4_0 = R
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'A', 'R']
+N1_1: E consistent with assignment
+Assigned N1_1 = E
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'A', 'R']
+Failure
+Undo N1_1 = E
+N1_1: A consistent with assignment
+Assigned N1_1 = A
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'E', 'R']
+Failure
+Undo N1_1 = A
+N1_1: R consistent with assignment
+Assigned N1_1 = R
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'E', 'A', 'R']
+Failure
+Undo N1_1 = R
+Failure
+Undo N4_0 = R
+Failure
+Undo N3_0 = R
+Failure
+Undo N2_0 = A
+N2_0: R consistent with assignment
+Assigned N2_0 = R
+Assigning variable N3_0
+Domain of variable N3_0: ['M', 'A', 'R']
+N3_0: M consistent with assignment
+Assigned N3_0 = M
+Assigning variable N4_0
+Domain of variable N4_0: ['M', 'A', 'R']
+N4_0: M consistent with assignment
+Assigned N4_0 = M
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'A', 'R']
+N1_1: E consistent with assignment
+Assigned N1_1 = E
+Assigning variable N3_1
+Domain of variable N3_1: ['A', 'R']
+Failure
+Undo N1_1 = E
+N1_1: A consistent with assignment
+Assigned N1_1 = A
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'R']
+Failure
+Undo N1_1 = A
+N1_1: R consistent with assignment
+Assigned N1_1 = R
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'A', 'R']
+Failure
+Undo N1_1 = R
+Failure
+Undo N4_0 = M
+N4_0: A consistent with assignment
+Assigned N4_0 = A
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'A', 'R']
+N1_1: E consistent with assignment
+Assigned N1_1 = E
+Assigning variable N3_1
+Domain of variable N3_1: ['A', 'R']
+Failure
+Undo N1_1 = E
+N1_1: A consistent with assignment
+Assigned N1_1 = A
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'R']
+Failure
+Undo N1_1 = A
+N1_1: R consistent with assignment
+Assigned N1_1 = R
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'A', 'R']
+Failure
+Undo N1_1 = R
+Failure
+Undo N4_0 = A
+N4_0: R consistent with assignment
+Assigned N4_0 = R
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'A', 'R']
+N1_1: E consistent with assignment
+Assigned N1_1 = E
+Assigning variable N3_1
+Domain of variable N3_1: ['A', 'R']
+Failure
+Undo N1_1 = E
+N1_1: A consistent with assignment
+Assigned N1_1 = A
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'R']
+Failure
+Undo N1_1 = A
+N1_1: R consistent with assignment
+Assigned N1_1 = R
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'A', 'R']
+Failure
+Undo N1_1 = R
+Failure
+Undo N4_0 = R
+Failure
+Undo N3_0 = M
+N3_0: A consistent with assignment
+Assigned N3_0 = A
+Assigning variable N4_0
+Domain of variable N4_0: ['M', 'R']
+N4_0: M consistent with assignment
+Assigned N4_0 = M
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'A', 'R']
+N1_1: E consistent with assignment
+Assigned N1_1 = E
+Assigning variable N4_1
+Domain of variable N4_1: ['A', 'R']
+Failure
+Undo N1_1 = E
+N1_1: A consistent with assignment
+Assigned N1_1 = A
+Assigning variable N4_1
+Domain of variable N4_1: ['E', 'R']
+Failure
+Undo N1_1 = A
+N1_1: R consistent with assignment
+Assigned N1_1 = R
+Assigning variable N4_1
+Domain of variable N4_1: ['E', 'A', 'R']
+Failure
+Undo N1_1 = R
+Failure
+Undo N4_0 = M
+N4_0: R consistent with assignment
+Assigned N4_0 = R
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'A', 'R']
+N1_1: E consistent with assignment
+Assigned N1_1 = E
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'A', 'R']
+Failure
+Undo N1_1 = E
+N1_1: A consistent with assignment
+Assigned N1_1 = A
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'E', 'R']
+Failure
+Undo N1_1 = A
+N1_1: R consistent with assignment
+Assigned N1_1 = R
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'E', 'A', 'R']
+Failure
+Undo N1_1 = R
+Failure
+Undo N4_0 = R
+Failure
+Undo N3_0 = A
+N3_0: R consistent with assignment
+Assigned N3_0 = R
+Assigning variable N4_0
+Domain of variable N4_0: ['M', 'A', 'R']
+N4_0: M consistent with assignment
+Assigned N4_0 = M
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'A', 'R']
+N1_1: E consistent with assignment
+Assigned N1_1 = E
+Assigning variable N4_1
+Domain of variable N4_1: ['A', 'R']
+Failure
+Undo N1_1 = E
+N1_1: A consistent with assignment
+Assigned N1_1 = A
+Assigning variable N4_1
+Domain of variable N4_1: ['E', 'R']
+Failure
+Undo N1_1 = A
+N1_1: R consistent with assignment
+Assigned N1_1 = R
+Assigning variable N4_1
+Domain of variable N4_1: ['E', 'A', 'R']
+Failure
+Undo N1_1 = R
+Failure
+Undo N4_0 = M
+N4_0: A consistent with assignment
+Assigned N4_0 = A
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'A', 'R']
+N1_1: E consistent with assignment
+Assigned N1_1 = E
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'A', 'R']
+Failure
+Undo N1_1 = E
+N1_1: A consistent with assignment
+Assigned N1_1 = A
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'E', 'R']
+Failure
+Undo N1_1 = A
+N1_1: R consistent with assignment
+Assigned N1_1 = R
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'E', 'A', 'R']
+Failure
+Undo N1_1 = R
+Failure
+Undo N4_0 = A
+N4_0: R consistent with assignment
+Assigned N4_0 = R
+Assigning variable N1_1
+Domain of variable N1_1: ['E', 'A', 'R']
+N1_1: E consistent with assignment
+Assigned N1_1 = E
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'A', 'R']
+Failure
+Undo N1_1 = E
+N1_1: A consistent with assignment
+Assigned N1_1 = A
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'E', 'R']
+Failure
+Undo N1_1 = A
+N1_1: R consistent with assignment
+Assigned N1_1 = R
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'E', 'A', 'R']
+Failure
+Undo N1_1 = R
+Failure
+Undo N4_0 = R
+Failure
+Undo N3_0 = R
+Failure
+Undo N2_0 = R
+Failure
+Undo N1_0 = E
+N1_0: A consistent with assignment
+Assigned N1_0 = A
+Assigning variable N2_0
+Domain of variable N2_0: ['M', 'E', 'R']
+N2_0: M consistent with assignment
+Assigned N2_0 = M
+Assigning variable N3_0
+Domain of variable N3_0: ['M', 'E', 'R']
+N3_0: M consistent with assignment
+Assigned N3_0 = M
+Assigning variable N4_0
+Domain of variable N4_0: ['E', 'R']
+N4_0: E consistent with assignment
+Assigned N4_0 = E
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'A', 'R']
+N2_1: E consistent with assignment
+Assigned N2_1 = E
+Assigning variable N3_1
+Domain of variable N3_1: ['A', 'R']
+Failure
+Undo N2_1 = E
+N2_1: A consistent with assignment
+Assigned N2_1 = A
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'R']
+Failure
+Undo N2_1 = A
+N2_1: R consistent with assignment
+Assigned N2_1 = R
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'A', 'R']
+Failure
+Undo N2_1 = R
+Failure
+Undo N4_0 = E
+N4_0: R consistent with assignment
+Assigned N4_0 = R
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'A', 'R']
+N2_1: E consistent with assignment
+Assigned N2_1 = E
+Assigning variable N3_1
+Domain of variable N3_1: ['A', 'R']
+Failure
+Undo N2_1 = E
+N2_1: A consistent with assignment
+Assigned N2_1 = A
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'R']
+Failure
+Undo N2_1 = A
+N2_1: R consistent with assignment
+Assigned N2_1 = R
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'A', 'R']
+Failure
+Undo N2_1 = R
+Failure
+Undo N4_0 = R
+Failure
+Undo N3_0 = M
+N3_0: E consistent with assignment
+Assigned N3_0 = E
+Assigning variable N4_0
+Domain of variable N4_0: ['M', 'R']
+N4_0: M consistent with assignment
+Assigned N4_0 = M
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'A', 'R']
+N2_1: E consistent with assignment
+Assigned N2_1 = E
+Assigning variable N3_1
+Domain of variable N3_1: ['A', 'R']
+Failure
+Undo N2_1 = E
+N2_1: A consistent with assignment
+Assigned N2_1 = A
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'R']
+Failure
+Undo N2_1 = A
+N2_1: R consistent with assignment
+Assigned N2_1 = R
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'A', 'R']
+Failure
+Undo N2_1 = R
+Failure
+Undo N4_0 = M
+N4_0: R consistent with assignment
+Assigned N4_0 = R
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'A', 'R']
+N2_1: E consistent with assignment
+Assigned N2_1 = E
+Assigning variable N3_1
+Domain of variable N3_1: ['A', 'R']
+Failure
+Undo N2_1 = E
+N2_1: A consistent with assignment
+Assigned N2_1 = A
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'R']
+Failure
+Undo N2_1 = A
+N2_1: R consistent with assignment
+Assigned N2_1 = R
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'A', 'R']
+Failure
+Undo N2_1 = R
+Failure
+Undo N4_0 = R
+Failure
+Undo N3_0 = E
+N3_0: R consistent with assignment
+Assigned N3_0 = R
+Assigning variable N4_0
+Domain of variable N4_0: ['M', 'E', 'R']
+N4_0: M consistent with assignment
+Assigned N4_0 = M
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'A', 'R']
+N2_1: E consistent with assignment
+Assigned N2_1 = E
+Assigning variable N4_1
+Domain of variable N4_1: ['A', 'R']
+Failure
+Undo N2_1 = E
+N2_1: A consistent with assignment
+Assigned N2_1 = A
+Assigning variable N4_1
+Domain of variable N4_1: ['E', 'R']
+Failure
+Undo N2_1 = A
+N2_1: R consistent with assignment
+Assigned N2_1 = R
+Assigning variable N4_1
+Domain of variable N4_1: ['E', 'A', 'R']
+Failure
+Undo N2_1 = R
+Failure
+Undo N4_0 = M
+N4_0: E consistent with assignment
+Assigned N4_0 = E
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'A', 'R']
+N2_1: E consistent with assignment
+Assigned N2_1 = E
+Assigning variable N4_1
+Domain of variable N4_1: ['A', 'R']
+Failure
+Undo N2_1 = E
+N2_1: A consistent with assignment
+Assigned N2_1 = A
+Assigning variable N4_1
+Domain of variable N4_1: ['E', 'R']
+Failure
+Undo N2_1 = A
+N2_1: R consistent with assignment
+Assigned N2_1 = R
+Assigning variable N4_1
+Domain of variable N4_1: ['E', 'A', 'R']
+Failure
+Undo N2_1 = R
+Failure
+Undo N4_0 = E
+N4_0: R consistent with assignment
+Assigned N4_0 = R
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'A', 'R']
+N2_1: E consistent with assignment
+Assigned N2_1 = E
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'A', 'R']
+Failure
+Undo N2_1 = E
+N2_1: A consistent with assignment
+Assigned N2_1 = A
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'E', 'R']
+Failure
+Undo N2_1 = A
+N2_1: R consistent with assignment
+Assigned N2_1 = R
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'E', 'A', 'R']
+Failure
+Undo N2_1 = R
+Failure
+Undo N4_0 = R
+Failure
+Undo N3_0 = R
+Failure
+Undo N2_0 = M
+N2_0: E consistent with assignment
+Assigned N2_0 = E
+Assigning variable N3_0
+Domain of variable N3_0: ['M', 'R']
+N3_0: M consistent with assignment
+Assigned N3_0 = M
+Assigning variable N4_0
+Domain of variable N4_0: ['M', 'R']
+N4_0: M consistent with assignment
+Assigned N4_0 = M
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'A', 'R']
+N2_1: E consistent with assignment
+Assigned N2_1 = E
+Assigning variable N3_1
+Domain of variable N3_1: ['A', 'R']
+Failure
+Undo N2_1 = E
+N2_1: A consistent with assignment
+Assigned N2_1 = A
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'R']
+Failure
+Undo N2_1 = A
+N2_1: R consistent with assignment
+Assigned N2_1 = R
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'A', 'R']
+Failure
+Undo N2_1 = R
+Failure
+Undo N4_0 = M
+N4_0: R consistent with assignment
+Assigned N4_0 = R
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'A', 'R']
+N2_1: E consistent with assignment
+Assigned N2_1 = E
+Assigning variable N3_1
+Domain of variable N3_1: ['A', 'R']
+Failure
+Undo N2_1 = E
+N2_1: A consistent with assignment
+Assigned N2_1 = A
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'R']
+Failure
+Undo N2_1 = A
+N2_1: R consistent with assignment
+Assigned N2_1 = R
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'A', 'R']
+Failure
+Undo N2_1 = R
+Failure
+Undo N4_0 = R
+Failure
+Undo N3_0 = M
+N3_0: R consistent with assignment
+Assigned N3_0 = R
+Assigning variable N4_0
+Domain of variable N4_0: ['M', 'R']
+N4_0: M consistent with assignment
+Assigned N4_0 = M
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'A', 'R']
+N2_1: E consistent with assignment
+Assigned N2_1 = E
+Assigning variable N4_1
+Domain of variable N4_1: ['A', 'R']
+Failure
+Undo N2_1 = E
+N2_1: A consistent with assignment
+Assigned N2_1 = A
+Assigning variable N4_1
+Domain of variable N4_1: ['E', 'R']
+Failure
+Undo N2_1 = A
+N2_1: R consistent with assignment
+Assigned N2_1 = R
+Assigning variable N4_1
+Domain of variable N4_1: ['E', 'A', 'R']
+Failure
+Undo N2_1 = R
+Failure
+Undo N4_0 = M
+N4_0: R consistent with assignment
+Assigned N4_0 = R
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'A', 'R']
+N2_1: E consistent with assignment
+Assigned N2_1 = E
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'A', 'R']
+Failure
+Undo N2_1 = E
+N2_1: A consistent with assignment
+Assigned N2_1 = A
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'E', 'R']
+Failure
+Undo N2_1 = A
+N2_1: R consistent with assignment
+Assigned N2_1 = R
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'E', 'A', 'R']
+Failure
+Undo N2_1 = R
+Failure
+Undo N4_0 = R
+Failure
+Undo N3_0 = R
+Failure
+Undo N2_0 = E
+N2_0: R consistent with assignment
+Assigned N2_0 = R
+Assigning variable N3_0
+Domain of variable N3_0: ['M', 'E', 'R']
+N3_0: M consistent with assignment
+Assigned N3_0 = M
+Assigning variable N4_0
+Domain of variable N4_0: ['M', 'E', 'R']
+N4_0: M consistent with assignment
+Assigned N4_0 = M
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'A', 'R']
+N3_1: E consistent with assignment
+Assigned N3_1 = E
+Assigning variable N4_1
+Domain of variable N4_1: ['A', 'R']
+Failure
+Undo N3_1 = E
+N3_1: A consistent with assignment
+Assigned N3_1 = A
+Assigning variable N4_1
+Domain of variable N4_1: ['E', 'R']
+Failure
+Undo N3_1 = A
+N3_1: R consistent with assignment
+Assigned N3_1 = R
+Assigning variable N4_1
+Domain of variable N4_1: ['E', 'A', 'R']
+Failure
+Undo N3_1 = R
+Failure
+Undo N4_0 = M
+N4_0: E consistent with assignment
+Assigned N4_0 = E
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'A', 'R']
+N3_1: E consistent with assignment
+Assigned N3_1 = E
+Assigning variable N4_1
+Domain of variable N4_1: ['A', 'R']
+Failure
+Undo N3_1 = E
+N3_1: A consistent with assignment
+Assigned N3_1 = A
+Assigning variable N4_1
+Domain of variable N4_1: ['E', 'R']
+Failure
+Undo N3_1 = A
+N3_1: R consistent with assignment
+Assigned N3_1 = R
+Assigning variable N4_1
+Domain of variable N4_1: ['E', 'A', 'R']
+Failure
+Undo N3_1 = R
+Failure
+Undo N4_0 = E
+N4_0: R consistent with assignment
+Assigned N4_0 = R
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'A', 'R']
+N3_1: E consistent with assignment
+Assigned N3_1 = E
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'A', 'R']
+Failure
+Undo N3_1 = E
+N3_1: A consistent with assignment
+Assigned N3_1 = A
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'E', 'R']
+Failure
+Undo N3_1 = A
+N3_1: R consistent with assignment
+Assigned N3_1 = R
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'E', 'A', 'R']
+Failure
+Undo N3_1 = R
+Failure
+Undo N4_0 = R
+Failure
+Undo N3_0 = M
+N3_0: E consistent with assignment
+Assigned N3_0 = E
+Assigning variable N4_0
+Domain of variable N4_0: ['M', 'R']
+N4_0: M consistent with assignment
+Assigned N4_0 = M
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'A', 'R']
+N3_1: E consistent with assignment
+Assigned N3_1 = E
+Assigning variable N4_1
+Domain of variable N4_1: ['A', 'R']
+Failure
+Undo N3_1 = E
+N3_1: A consistent with assignment
+Assigned N3_1 = A
+Assigning variable N4_1
+Domain of variable N4_1: ['E', 'R']
+Failure
+Undo N3_1 = A
+N3_1: R consistent with assignment
+Assigned N3_1 = R
+Assigning variable N4_1
+Domain of variable N4_1: ['E', 'A', 'R']
+Failure
+Undo N3_1 = R
+Failure
+Undo N4_0 = M
+N4_0: R consistent with assignment
+Assigned N4_0 = R
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'A', 'R']
+N3_1: E consistent with assignment
+Assigned N3_1 = E
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'A', 'R']
+Failure
+Undo N3_1 = E
+N3_1: A consistent with assignment
+Assigned N3_1 = A
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'E', 'R']
+Failure
+Undo N3_1 = A
+N3_1: R consistent with assignment
+Assigned N3_1 = R
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'E', 'A', 'R']
+Failure
+Undo N3_1 = R
+Failure
+Undo N4_0 = R
+Failure
+Undo N3_0 = E
+N3_0: R consistent with assignment
+Assigned N3_0 = R
+Assigning variable N4_0
+Domain of variable N4_0: ['M', 'E', 'R']
+N4_0: M consistent with assignment
+Assigned N4_0 = M
+Assigning variable N4_1
+Domain of variable N4_1: ['E', 'A', 'R']
+N4_1: E consistent with assignment
+Assigned N4_1 = E
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'A', 'R']
+Failure
+Undo N4_1 = E
+N4_1: A consistent with assignment
+Assigned N4_1 = A
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'E', 'R']
+Failure
+Undo N4_1 = A
+N4_1: R consistent with assignment
+Assigned N4_1 = R
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'E', 'A', 'R']
+Failure
+Undo N4_1 = R
+Failure
+Undo N4_0 = M
+N4_0: E consistent with assignment
+Assigned N4_0 = E
+Assigning variable N4_1
+Domain of variable N4_1: ['E', 'A', 'R']
+N4_1: E consistent with assignment
+Assigned N4_1 = E
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'A', 'R']
+Failure
+Undo N4_1 = E
+N4_1: A consistent with assignment
+Assigned N4_1 = A
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'E', 'R']
+Failure
+Undo N4_1 = A
+N4_1: R consistent with assignment
+Assigned N4_1 = R
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'E', 'A', 'R']
+Failure
+Undo N4_1 = R
+Failure
+Undo N4_0 = E
+N4_0: R consistent with assignment
+Assigned N4_0 = R
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'E', 'A', 'R']
+N0_1: M consistent with assignment
+Assigned N0_1 = M
+Assigning variable N1_1
+Domain of variable N1_1: ['M', 'E', 'A', 'R']
+Failure
+Undo N0_1 = M
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N1_1
+Domain of variable N1_1: ['M', 'A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N1_1
+Domain of variable N1_1: ['M', 'E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N1_1
+Domain of variable N1_1: ['M', 'E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = R
+Failure
+Undo N3_0 = R
+Failure
+Undo N2_0 = R
+Failure
+Undo N1_0 = A
+N1_0: R consistent with assignment
+Assigned N1_0 = R
+Assigning variable N2_0
+Domain of variable N2_0: ['M', 'E', 'A', 'R']
+N2_0: M consistent with assignment
+Assigned N2_0 = M
+Assigning variable N3_0
+Domain of variable N3_0: ['M', 'E', 'A', 'R']
+N3_0: M consistent with assignment
+Assigned N3_0 = M
+Assigning variable N4_0
+Domain of variable N4_0: ['E', 'A', 'R']
+N4_0: E consistent with assignment
+Assigned N4_0 = E
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'A', 'R']
+N2_1: E consistent with assignment
+Assigned N2_1 = E
+Assigning variable N3_1
+Domain of variable N3_1: ['A', 'R']
+Failure
+Undo N2_1 = E
+N2_1: A consistent with assignment
+Assigned N2_1 = A
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'R']
+Failure
+Undo N2_1 = A
+N2_1: R consistent with assignment
+Assigned N2_1 = R
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'A', 'R']
+Failure
+Undo N2_1 = R
+Failure
+Undo N4_0 = E
+N4_0: A consistent with assignment
+Assigned N4_0 = A
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'A', 'R']
+N2_1: E consistent with assignment
+Assigned N2_1 = E
+Assigning variable N3_1
+Domain of variable N3_1: ['A', 'R']
+Failure
+Undo N2_1 = E
+N2_1: A consistent with assignment
+Assigned N2_1 = A
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'R']
+Failure
+Undo N2_1 = A
+N2_1: R consistent with assignment
+Assigned N2_1 = R
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'A', 'R']
+Failure
+Undo N2_1 = R
+Failure
+Undo N4_0 = A
+N4_0: R consistent with assignment
+Assigned N4_0 = R
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'A', 'R']
+N2_1: E consistent with assignment
+Assigned N2_1 = E
+Assigning variable N3_1
+Domain of variable N3_1: ['A', 'R']
+Failure
+Undo N2_1 = E
+N2_1: A consistent with assignment
+Assigned N2_1 = A
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'R']
+Failure
+Undo N2_1 = A
+N2_1: R consistent with assignment
+Assigned N2_1 = R
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'A', 'R']
+Failure
+Undo N2_1 = R
+Failure
+Undo N4_0 = R
+Failure
+Undo N3_0 = M
+N3_0: E consistent with assignment
+Assigned N3_0 = E
+Assigning variable N4_0
+Domain of variable N4_0: ['M', 'A', 'R']
+N4_0: M consistent with assignment
+Assigned N4_0 = M
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'A', 'R']
+N2_1: E consistent with assignment
+Assigned N2_1 = E
+Assigning variable N3_1
+Domain of variable N3_1: ['A', 'R']
+Failure
+Undo N2_1 = E
+N2_1: A consistent with assignment
+Assigned N2_1 = A
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'R']
+Failure
+Undo N2_1 = A
+N2_1: R consistent with assignment
+Assigned N2_1 = R
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'A', 'R']
+Failure
+Undo N2_1 = R
+Failure
+Undo N4_0 = M
+N4_0: A consistent with assignment
+Assigned N4_0 = A
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'A', 'R']
+N2_1: E consistent with assignment
+Assigned N2_1 = E
+Assigning variable N3_1
+Domain of variable N3_1: ['A', 'R']
+Failure
+Undo N2_1 = E
+N2_1: A consistent with assignment
+Assigned N2_1 = A
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'R']
+Failure
+Undo N2_1 = A
+N2_1: R consistent with assignment
+Assigned N2_1 = R
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'A', 'R']
+Failure
+Undo N2_1 = R
+Failure
+Undo N4_0 = A
+N4_0: R consistent with assignment
+Assigned N4_0 = R
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'A', 'R']
+N2_1: E consistent with assignment
+Assigned N2_1 = E
+Assigning variable N3_1
+Domain of variable N3_1: ['A', 'R']
+Failure
+Undo N2_1 = E
+N2_1: A consistent with assignment
+Assigned N2_1 = A
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'R']
+Failure
+Undo N2_1 = A
+N2_1: R consistent with assignment
+Assigned N2_1 = R
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'A', 'R']
+Failure
+Undo N2_1 = R
+Failure
+Undo N4_0 = R
+Failure
+Undo N3_0 = E
+N3_0: A consistent with assignment
+Assigned N3_0 = A
+Assigning variable N4_0
+Domain of variable N4_0: ['M', 'E', 'R']
+N4_0: M consistent with assignment
+Assigned N4_0 = M
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'A', 'R']
+N2_1: E consistent with assignment
+Assigned N2_1 = E
+Assigning variable N4_1
+Domain of variable N4_1: ['A', 'R']
+Failure
+Undo N2_1 = E
+N2_1: A consistent with assignment
+Assigned N2_1 = A
+Assigning variable N4_1
+Domain of variable N4_1: ['E', 'R']
+Failure
+Undo N2_1 = A
+N2_1: R consistent with assignment
+Assigned N2_1 = R
+Assigning variable N4_1
+Domain of variable N4_1: ['E', 'A', 'R']
+Failure
+Undo N2_1 = R
+Failure
+Undo N4_0 = M
+N4_0: E consistent with assignment
+Assigned N4_0 = E
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'A', 'R']
+N2_1: E consistent with assignment
+Assigned N2_1 = E
+Assigning variable N4_1
+Domain of variable N4_1: ['A', 'R']
+Failure
+Undo N2_1 = E
+N2_1: A consistent with assignment
+Assigned N2_1 = A
+Assigning variable N4_1
+Domain of variable N4_1: ['E', 'R']
+Failure
+Undo N2_1 = A
+N2_1: R consistent with assignment
+Assigned N2_1 = R
+Assigning variable N4_1
+Domain of variable N4_1: ['E', 'A', 'R']
+Failure
+Undo N2_1 = R
+Failure
+Undo N4_0 = E
+N4_0: R consistent with assignment
+Assigned N4_0 = R
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'A', 'R']
+N2_1: E consistent with assignment
+Assigned N2_1 = E
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'A', 'R']
+Failure
+Undo N2_1 = E
+N2_1: A consistent with assignment
+Assigned N2_1 = A
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'E', 'R']
+Failure
+Undo N2_1 = A
+N2_1: R consistent with assignment
+Assigned N2_1 = R
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'E', 'A', 'R']
+Failure
+Undo N2_1 = R
+Failure
+Undo N4_0 = R
+Failure
+Undo N3_0 = A
+N3_0: R consistent with assignment
+Assigned N3_0 = R
+Assigning variable N4_0
+Domain of variable N4_0: ['M', 'E', 'A', 'R']
+N4_0: M consistent with assignment
+Assigned N4_0 = M
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'A', 'R']
+N2_1: E consistent with assignment
+Assigned N2_1 = E
+Assigning variable N4_1
+Domain of variable N4_1: ['A', 'R']
+Failure
+Undo N2_1 = E
+N2_1: A consistent with assignment
+Assigned N2_1 = A
+Assigning variable N4_1
+Domain of variable N4_1: ['E', 'R']
+Failure
+Undo N2_1 = A
+N2_1: R consistent with assignment
+Assigned N2_1 = R
+Assigning variable N4_1
+Domain of variable N4_1: ['E', 'A', 'R']
+Failure
+Undo N2_1 = R
+Failure
+Undo N4_0 = M
+N4_0: E consistent with assignment
+Assigned N4_0 = E
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'A', 'R']
+N2_1: E consistent with assignment
+Assigned N2_1 = E
+Assigning variable N4_1
+Domain of variable N4_1: ['A', 'R']
+Failure
+Undo N2_1 = E
+N2_1: A consistent with assignment
+Assigned N2_1 = A
+Assigning variable N4_1
+Domain of variable N4_1: ['E', 'R']
+Failure
+Undo N2_1 = A
+N2_1: R consistent with assignment
+Assigned N2_1 = R
+Assigning variable N4_1
+Domain of variable N4_1: ['E', 'A', 'R']
+Failure
+Undo N2_1 = R
+Failure
+Undo N4_0 = E
+N4_0: A consistent with assignment
+Assigned N4_0 = A
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'A', 'R']
+N2_1: E consistent with assignment
+Assigned N2_1 = E
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'A', 'R']
+Failure
+Undo N2_1 = E
+N2_1: A consistent with assignment
+Assigned N2_1 = A
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'E', 'R']
+Failure
+Undo N2_1 = A
+N2_1: R consistent with assignment
+Assigned N2_1 = R
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'E', 'A', 'R']
+Failure
+Undo N2_1 = R
+Failure
+Undo N4_0 = A
+N4_0: R consistent with assignment
+Assigned N4_0 = R
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'A', 'R']
+N2_1: E consistent with assignment
+Assigned N2_1 = E
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'A', 'R']
+Failure
+Undo N2_1 = E
+N2_1: A consistent with assignment
+Assigned N2_1 = A
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'E', 'R']
+Failure
+Undo N2_1 = A
+N2_1: R consistent with assignment
+Assigned N2_1 = R
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'E', 'A', 'R']
+Failure
+Undo N2_1 = R
+Failure
+Undo N4_0 = R
+Failure
+Undo N3_0 = R
+Failure
+Undo N2_0 = M
+N2_0: E consistent with assignment
+Assigned N2_0 = E
+Assigning variable N3_0
+Domain of variable N3_0: ['M', 'A', 'R']
+N3_0: M consistent with assignment
+Assigned N3_0 = M
+Assigning variable N4_0
+Domain of variable N4_0: ['M', 'A', 'R']
+N4_0: M consistent with assignment
+Assigned N4_0 = M
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'A', 'R']
+N2_1: E consistent with assignment
+Assigned N2_1 = E
+Assigning variable N3_1
+Domain of variable N3_1: ['A', 'R']
+Failure
+Undo N2_1 = E
+N2_1: A consistent with assignment
+Assigned N2_1 = A
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'R']
+Failure
+Undo N2_1 = A
+N2_1: R consistent with assignment
+Assigned N2_1 = R
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'A', 'R']
+Failure
+Undo N2_1 = R
+Failure
+Undo N4_0 = M
+N4_0: A consistent with assignment
+Assigned N4_0 = A
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'A', 'R']
+N2_1: E consistent with assignment
+Assigned N2_1 = E
+Assigning variable N3_1
+Domain of variable N3_1: ['A', 'R']
+Failure
+Undo N2_1 = E
+N2_1: A consistent with assignment
+Assigned N2_1 = A
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'R']
+Failure
+Undo N2_1 = A
+N2_1: R consistent with assignment
+Assigned N2_1 = R
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'A', 'R']
+Failure
+Undo N2_1 = R
+Failure
+Undo N4_0 = A
+N4_0: R consistent with assignment
+Assigned N4_0 = R
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'A', 'R']
+N2_1: E consistent with assignment
+Assigned N2_1 = E
+Assigning variable N3_1
+Domain of variable N3_1: ['A', 'R']
+Failure
+Undo N2_1 = E
+N2_1: A consistent with assignment
+Assigned N2_1 = A
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'R']
+Failure
+Undo N2_1 = A
+N2_1: R consistent with assignment
+Assigned N2_1 = R
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'A', 'R']
+Failure
+Undo N2_1 = R
+Failure
+Undo N4_0 = R
+Failure
+Undo N3_0 = M
+N3_0: A consistent with assignment
+Assigned N3_0 = A
+Assigning variable N4_0
+Domain of variable N4_0: ['M', 'R']
+N4_0: M consistent with assignment
+Assigned N4_0 = M
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'A', 'R']
+N2_1: E consistent with assignment
+Assigned N2_1 = E
+Assigning variable N4_1
+Domain of variable N4_1: ['A', 'R']
+Failure
+Undo N2_1 = E
+N2_1: A consistent with assignment
+Assigned N2_1 = A
+Assigning variable N4_1
+Domain of variable N4_1: ['E', 'R']
+Failure
+Undo N2_1 = A
+N2_1: R consistent with assignment
+Assigned N2_1 = R
+Assigning variable N4_1
+Domain of variable N4_1: ['E', 'A', 'R']
+Failure
+Undo N2_1 = R
+Failure
+Undo N4_0 = M
+N4_0: R consistent with assignment
+Assigned N4_0 = R
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'A', 'R']
+N2_1: E consistent with assignment
+Assigned N2_1 = E
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'A', 'R']
+Failure
+Undo N2_1 = E
+N2_1: A consistent with assignment
+Assigned N2_1 = A
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'E', 'R']
+Failure
+Undo N2_1 = A
+N2_1: R consistent with assignment
+Assigned N2_1 = R
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'E', 'A', 'R']
+Failure
+Undo N2_1 = R
+Failure
+Undo N4_0 = R
+Failure
+Undo N3_0 = A
+N3_0: R consistent with assignment
+Assigned N3_0 = R
+Assigning variable N4_0
+Domain of variable N4_0: ['M', 'A', 'R']
+N4_0: M consistent with assignment
+Assigned N4_0 = M
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'A', 'R']
+N2_1: E consistent with assignment
+Assigned N2_1 = E
+Assigning variable N4_1
+Domain of variable N4_1: ['A', 'R']
+Failure
+Undo N2_1 = E
+N2_1: A consistent with assignment
+Assigned N2_1 = A
+Assigning variable N4_1
+Domain of variable N4_1: ['E', 'R']
+Failure
+Undo N2_1 = A
+N2_1: R consistent with assignment
+Assigned N2_1 = R
+Assigning variable N4_1
+Domain of variable N4_1: ['E', 'A', 'R']
+Failure
+Undo N2_1 = R
+Failure
+Undo N4_0 = M
+N4_0: A consistent with assignment
+Assigned N4_0 = A
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'A', 'R']
+N2_1: E consistent with assignment
+Assigned N2_1 = E
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'A', 'R']
+Failure
+Undo N2_1 = E
+N2_1: A consistent with assignment
+Assigned N2_1 = A
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'E', 'R']
+Failure
+Undo N2_1 = A
+N2_1: R consistent with assignment
+Assigned N2_1 = R
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'E', 'A', 'R']
+Failure
+Undo N2_1 = R
+Failure
+Undo N4_0 = A
+N4_0: R consistent with assignment
+Assigned N4_0 = R
+Assigning variable N2_1
+Domain of variable N2_1: ['E', 'A', 'R']
+N2_1: E consistent with assignment
+Assigned N2_1 = E
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'A', 'R']
+Failure
+Undo N2_1 = E
+N2_1: A consistent with assignment
+Assigned N2_1 = A
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'E', 'R']
+Failure
+Undo N2_1 = A
+N2_1: R consistent with assignment
+Assigned N2_1 = R
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'E', 'A', 'R']
+Failure
+Undo N2_1 = R
+Failure
+Undo N4_0 = R
+Failure
+Undo N3_0 = R
+Failure
+Undo N2_0 = E
+N2_0: A consistent with assignment
+Assigned N2_0 = A
+Assigning variable N3_0
+Domain of variable N3_0: ['M', 'E', 'R']
+N3_0: M consistent with assignment
+Assigned N3_0 = M
+Assigning variable N4_0
+Domain of variable N4_0: ['M', 'E', 'R']
+N4_0: M consistent with assignment
+Assigned N4_0 = M
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'A', 'R']
+N3_1: E consistent with assignment
+Assigned N3_1 = E
+Assigning variable N4_1
+Domain of variable N4_1: ['A', 'R']
+Failure
+Undo N3_1 = E
+N3_1: A consistent with assignment
+Assigned N3_1 = A
+Assigning variable N4_1
+Domain of variable N4_1: ['E', 'R']
+Failure
+Undo N3_1 = A
+N3_1: R consistent with assignment
+Assigned N3_1 = R
+Assigning variable N4_1
+Domain of variable N4_1: ['E', 'A', 'R']
+Failure
+Undo N3_1 = R
+Failure
+Undo N4_0 = M
+N4_0: E consistent with assignment
+Assigned N4_0 = E
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'A', 'R']
+N3_1: E consistent with assignment
+Assigned N3_1 = E
+Assigning variable N4_1
+Domain of variable N4_1: ['A', 'R']
+Failure
+Undo N3_1 = E
+N3_1: A consistent with assignment
+Assigned N3_1 = A
+Assigning variable N4_1
+Domain of variable N4_1: ['E', 'R']
+Failure
+Undo N3_1 = A
+N3_1: R consistent with assignment
+Assigned N3_1 = R
+Assigning variable N4_1
+Domain of variable N4_1: ['E', 'A', 'R']
+Failure
+Undo N3_1 = R
+Failure
+Undo N4_0 = E
+N4_0: R consistent with assignment
+Assigned N4_0 = R
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'A', 'R']
+N3_1: E consistent with assignment
+Assigned N3_1 = E
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'A', 'R']
+Failure
+Undo N3_1 = E
+N3_1: A consistent with assignment
+Assigned N3_1 = A
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'E', 'R']
+Failure
+Undo N3_1 = A
+N3_1: R consistent with assignment
+Assigned N3_1 = R
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'E', 'A', 'R']
+Failure
+Undo N3_1 = R
+Failure
+Undo N4_0 = R
+Failure
+Undo N3_0 = M
+N3_0: E consistent with assignment
+Assigned N3_0 = E
+Assigning variable N4_0
+Domain of variable N4_0: ['M', 'R']
+N4_0: M consistent with assignment
+Assigned N4_0 = M
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'A', 'R']
+N3_1: E consistent with assignment
+Assigned N3_1 = E
+Assigning variable N4_1
+Domain of variable N4_1: ['A', 'R']
+Failure
+Undo N3_1 = E
+N3_1: A consistent with assignment
+Assigned N3_1 = A
+Assigning variable N4_1
+Domain of variable N4_1: ['E', 'R']
+Failure
+Undo N3_1 = A
+N3_1: R consistent with assignment
+Assigned N3_1 = R
+Assigning variable N4_1
+Domain of variable N4_1: ['E', 'A', 'R']
+Failure
+Undo N3_1 = R
+Failure
+Undo N4_0 = M
+N4_0: R consistent with assignment
+Assigned N4_0 = R
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'A', 'R']
+N3_1: E consistent with assignment
+Assigned N3_1 = E
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'A', 'R']
+Failure
+Undo N3_1 = E
+N3_1: A consistent with assignment
+Assigned N3_1 = A
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'E', 'R']
+Failure
+Undo N3_1 = A
+N3_1: R consistent with assignment
+Assigned N3_1 = R
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'E', 'A', 'R']
+Failure
+Undo N3_1 = R
+Failure
+Undo N4_0 = R
+Failure
+Undo N3_0 = E
+N3_0: R consistent with assignment
+Assigned N3_0 = R
+Assigning variable N4_0
+Domain of variable N4_0: ['M', 'E', 'R']
+N4_0: M consistent with assignment
+Assigned N4_0 = M
+Assigning variable N4_1
+Domain of variable N4_1: ['E', 'A', 'R']
+N4_1: E consistent with assignment
+Assigned N4_1 = E
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'A', 'R']
+Failure
+Undo N4_1 = E
+N4_1: A consistent with assignment
+Assigned N4_1 = A
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'E', 'R']
+Failure
+Undo N4_1 = A
+N4_1: R consistent with assignment
+Assigned N4_1 = R
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'E', 'A', 'R']
+Failure
+Undo N4_1 = R
+Failure
+Undo N4_0 = M
+N4_0: E consistent with assignment
+Assigned N4_0 = E
+Assigning variable N4_1
+Domain of variable N4_1: ['E', 'A', 'R']
+N4_1: E consistent with assignment
+Assigned N4_1 = E
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'A', 'R']
+Failure
+Undo N4_1 = E
+N4_1: A consistent with assignment
+Assigned N4_1 = A
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'E', 'R']
+Failure
+Undo N4_1 = A
+N4_1: R consistent with assignment
+Assigned N4_1 = R
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'E', 'A', 'R']
+Failure
+Undo N4_1 = R
+Failure
+Undo N4_0 = E
+N4_0: R consistent with assignment
+Assigned N4_0 = R
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'E', 'A', 'R']
+N0_1: M consistent with assignment
+Assigned N0_1 = M
+Assigning variable N1_1
+Domain of variable N1_1: ['M', 'E', 'A', 'R']
+Failure
+Undo N0_1 = M
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N1_1
+Domain of variable N1_1: ['M', 'A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N1_1
+Domain of variable N1_1: ['M', 'E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N1_1
+Domain of variable N1_1: ['M', 'E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = R
+Failure
+Undo N3_0 = R
+Failure
+Undo N2_0 = A
+N2_0: R consistent with assignment
+Assigned N2_0 = R
+Assigning variable N3_0
+Domain of variable N3_0: ['M', 'E', 'A', 'R']
+N3_0: M consistent with assignment
+Assigned N3_0 = M
+Assigning variable N4_0
+Domain of variable N4_0: ['M', 'E', 'A', 'R']
+N4_0: M consistent with assignment
+Assigned N4_0 = M
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'A', 'R']
+N3_1: E consistent with assignment
+Assigned N3_1 = E
+Assigning variable N4_1
+Domain of variable N4_1: ['A', 'R']
+Failure
+Undo N3_1 = E
+N3_1: A consistent with assignment
+Assigned N3_1 = A
+Assigning variable N4_1
+Domain of variable N4_1: ['E', 'R']
+Failure
+Undo N3_1 = A
+N3_1: R consistent with assignment
+Assigned N3_1 = R
+Assigning variable N4_1
+Domain of variable N4_1: ['E', 'A', 'R']
+Failure
+Undo N3_1 = R
+Failure
+Undo N4_0 = M
+N4_0: E consistent with assignment
+Assigned N4_0 = E
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'A', 'R']
+N3_1: E consistent with assignment
+Assigned N3_1 = E
+Assigning variable N4_1
+Domain of variable N4_1: ['A', 'R']
+Failure
+Undo N3_1 = E
+N3_1: A consistent with assignment
+Assigned N3_1 = A
+Assigning variable N4_1
+Domain of variable N4_1: ['E', 'R']
+Failure
+Undo N3_1 = A
+N3_1: R consistent with assignment
+Assigned N3_1 = R
+Assigning variable N4_1
+Domain of variable N4_1: ['E', 'A', 'R']
+Failure
+Undo N3_1 = R
+Failure
+Undo N4_0 = E
+N4_0: A consistent with assignment
+Assigned N4_0 = A
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'A', 'R']
+N3_1: E consistent with assignment
+Assigned N3_1 = E
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'A', 'R']
+Failure
+Undo N3_1 = E
+N3_1: A consistent with assignment
+Assigned N3_1 = A
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'E', 'R']
+Failure
+Undo N3_1 = A
+N3_1: R consistent with assignment
+Assigned N3_1 = R
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'E', 'A', 'R']
+Failure
+Undo N3_1 = R
+Failure
+Undo N4_0 = A
+N4_0: R consistent with assignment
+Assigned N4_0 = R
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'A', 'R']
+N3_1: E consistent with assignment
+Assigned N3_1 = E
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'A', 'R']
+Failure
+Undo N3_1 = E
+N3_1: A consistent with assignment
+Assigned N3_1 = A
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'E', 'R']
+Failure
+Undo N3_1 = A
+N3_1: R consistent with assignment
+Assigned N3_1 = R
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'E', 'A', 'R']
+Failure
+Undo N3_1 = R
+Failure
+Undo N4_0 = R
+Failure
+Undo N3_0 = M
+N3_0: E consistent with assignment
+Assigned N3_0 = E
+Assigning variable N4_0
+Domain of variable N4_0: ['M', 'A', 'R']
+N4_0: M consistent with assignment
+Assigned N4_0 = M
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'A', 'R']
+N3_1: E consistent with assignment
+Assigned N3_1 = E
+Assigning variable N4_1
+Domain of variable N4_1: ['A', 'R']
+Failure
+Undo N3_1 = E
+N3_1: A consistent with assignment
+Assigned N3_1 = A
+Assigning variable N4_1
+Domain of variable N4_1: ['E', 'R']
+Failure
+Undo N3_1 = A
+N3_1: R consistent with assignment
+Assigned N3_1 = R
+Assigning variable N4_1
+Domain of variable N4_1: ['E', 'A', 'R']
+Failure
+Undo N3_1 = R
+Failure
+Undo N4_0 = M
+N4_0: A consistent with assignment
+Assigned N4_0 = A
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'A', 'R']
+N3_1: E consistent with assignment
+Assigned N3_1 = E
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'A', 'R']
+Failure
+Undo N3_1 = E
+N3_1: A consistent with assignment
+Assigned N3_1 = A
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'E', 'R']
+Failure
+Undo N3_1 = A
+N3_1: R consistent with assignment
+Assigned N3_1 = R
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'E', 'A', 'R']
+Failure
+Undo N3_1 = R
+Failure
+Undo N4_0 = A
+N4_0: R consistent with assignment
+Assigned N4_0 = R
+Assigning variable N3_1
+Domain of variable N3_1: ['E', 'A', 'R']
+N3_1: E consistent with assignment
+Assigned N3_1 = E
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'A', 'R']
+Failure
+Undo N3_1 = E
+N3_1: A consistent with assignment
+Assigned N3_1 = A
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'E', 'R']
+Failure
+Undo N3_1 = A
+N3_1: R consistent with assignment
+Assigned N3_1 = R
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'E', 'A', 'R']
+Failure
+Undo N3_1 = R
+Failure
+Undo N4_0 = R
+Failure
+Undo N3_0 = E
+N3_0: A consistent with assignment
+Assigned N3_0 = A
+Assigning variable N4_0
+Domain of variable N4_0: ['M', 'E', 'R']
+N4_0: M consistent with assignment
+Assigned N4_0 = M
+Assigning variable N4_1
+Domain of variable N4_1: ['E', 'A', 'R']
+N4_1: E consistent with assignment
+Assigned N4_1 = E
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'A', 'R']
+Failure
+Undo N4_1 = E
+N4_1: A consistent with assignment
+Assigned N4_1 = A
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'E', 'R']
+Failure
+Undo N4_1 = A
+N4_1: R consistent with assignment
+Assigned N4_1 = R
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'E', 'A', 'R']
+Failure
+Undo N4_1 = R
+Failure
+Undo N4_0 = M
+N4_0: E consistent with assignment
+Assigned N4_0 = E
+Assigning variable N4_1
+Domain of variable N4_1: ['E', 'A', 'R']
+N4_1: E consistent with assignment
+Assigned N4_1 = E
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'A', 'R']
+Failure
+Undo N4_1 = E
+N4_1: A consistent with assignment
+Assigned N4_1 = A
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'E', 'R']
+Failure
+Undo N4_1 = A
+N4_1: R consistent with assignment
+Assigned N4_1 = R
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'E', 'A', 'R']
+Failure
+Undo N4_1 = R
+Failure
+Undo N4_0 = E
+N4_0: R consistent with assignment
+Assigned N4_0 = R
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'E', 'A', 'R']
+N0_1: M consistent with assignment
+Assigned N0_1 = M
+Assigning variable N1_1
+Domain of variable N1_1: ['M', 'E', 'A', 'R']
+Failure
+Undo N0_1 = M
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N1_1
+Domain of variable N1_1: ['M', 'A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N1_1
+Domain of variable N1_1: ['M', 'E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N1_1
+Domain of variable N1_1: ['M', 'E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = R
+Failure
+Undo N3_0 = A
+N3_0: R consistent with assignment
+Assigned N3_0 = R
+Assigning variable N4_0
+Domain of variable N4_0: ['M', 'E', 'A', 'R']
+N4_0: M consistent with assignment
+Assigned N4_0 = M
+Assigning variable N4_1
+Domain of variable N4_1: ['E', 'A', 'R']
+N4_1: E consistent with assignment
+Assigned N4_1 = E
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'A', 'R']
+Failure
+Undo N4_1 = E
+N4_1: A consistent with assignment
+Assigned N4_1 = A
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'E', 'R']
+Failure
+Undo N4_1 = A
+N4_1: R consistent with assignment
+Assigned N4_1 = R
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'E', 'A', 'R']
+Failure
+Undo N4_1 = R
+Failure
+Undo N4_0 = M
+N4_0: E consistent with assignment
+Assigned N4_0 = E
+Assigning variable N4_1
+Domain of variable N4_1: ['E', 'A', 'R']
+N4_1: E consistent with assignment
+Assigned N4_1 = E
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'A', 'R']
+Failure
+Undo N4_1 = E
+N4_1: A consistent with assignment
+Assigned N4_1 = A
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'E', 'R']
+Failure
+Undo N4_1 = A
+N4_1: R consistent with assignment
+Assigned N4_1 = R
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'E', 'A', 'R']
+Failure
+Undo N4_1 = R
+Failure
+Undo N4_0 = E
+N4_0: A consistent with assignment
+Assigned N4_0 = A
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'E', 'A', 'R']
+N0_1: M consistent with assignment
+Assigned N0_1 = M
+Assigning variable N1_1
+Domain of variable N1_1: ['M', 'E', 'A', 'R']
+Failure
+Undo N0_1 = M
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N1_1
+Domain of variable N1_1: ['M', 'A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N1_1
+Domain of variable N1_1: ['M', 'E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N1_1
+Domain of variable N1_1: ['M', 'E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = A
+N4_0: R consistent with assignment
+Assigned N4_0 = R
+Assigning variable N0_1
+Domain of variable N0_1: ['M', 'E', 'A', 'R']
+N0_1: M consistent with assignment
+Assigned N0_1 = M
+Assigning variable N1_1
+Domain of variable N1_1: ['M', 'E', 'A', 'R']
+Failure
+Undo N0_1 = M
+N0_1: E consistent with assignment
+Assigned N0_1 = E
+Assigning variable N1_1
+Domain of variable N1_1: ['M', 'A', 'R']
+Failure
+Undo N0_1 = E
+N0_1: A consistent with assignment
+Assigned N0_1 = A
+Assigning variable N1_1
+Domain of variable N1_1: ['M', 'E', 'R']
+Failure
+Undo N0_1 = A
+N0_1: R consistent with assignment
+Assigned N0_1 = R
+Assigning variable N1_1
+Domain of variable N1_1: ['M', 'E', 'A', 'R']
+Failure
+Undo N0_1 = R
+Failure
+Undo N4_0 = R
+Failure
+Undo N3_0 = R
+Failure
+Undo N2_0 = R
+Failure
+Undo N1_0 = R
+Failure
+Undo N0_0 = R
+Failure
+NO-SOLUTION
