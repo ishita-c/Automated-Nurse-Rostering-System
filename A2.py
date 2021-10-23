@@ -2,7 +2,12 @@ import sys
 import pandas as pd
 import numpy as np
 import json
+import time
 
+sys.setrecursionlimit(1500)
+
+
+start = time.process_time()
 
 if len(sys.argv) != 2:
     raise Exception("Please give filename as argument.")
@@ -27,7 +32,8 @@ class csp:
         self.assignment = {}
         self.has_rest = [0 for i in range(self.N)]
         self.shift_counts = [0 for i in range(3)]
-        self.cur_day = -1   
+        self.cur_day = -1
+        self.max_r = (7*(N-m-a-e) - N)//N + 3
         
     def select_unassigned_variable(self):
         most_constrained = None
@@ -46,12 +52,12 @@ class csp:
     def order_domain_value(self, var_name):
         domain = self.domains[var_name]
         ordered_domain = []
+        if "A" in domain:
+            ordered_domain.append("A")
         if "M" in domain:
             ordered_domain.append("M")
         if "E" in domain:
             ordered_domain.append("E")
-        if "A" in domain:
-            ordered_domain.append("A")
         if "R" in domain:
             ordered_domain.append("R")
         return ordered_domain
@@ -77,13 +83,14 @@ class csp:
         updated_has_rest = self.has_rest[:]
         if value == "R":
             updated_has_rest[n] += 1
-        if (num_assigned + 1) % self.D == 0:
+        if updated_has_rest[n] > self.max_r:
+            return False
+        if (d + 1) % 7 == 0:
+            if updated_has_rest[n] == 0:
+                return False
+        if (num_assigned + 1) % self.N == 0:
             if (updated_shift_counts[0] != self.m) or (updated_shift_counts[1] != self.a) or (updated_shift_counts[2] != self.e):
-                return False            
-        if (num_assigned + 1) % (7 * self.N) == 0:
-            for nurse_rest in updated_has_rest:
-                if nurse_rest == 0:
-                    return False
+                return False
         return True
 
     def get_inferences(self, var):
@@ -151,15 +158,15 @@ class csp:
             self.has_rest = [0 for i in range(self.N)]
 
         var = self.select_unassigned_variable()
-        print(f"Assigning variable {var}")
+        # print(f"Assigning variable {var}")
         n = int(var[1:var.find("_")])
         d = int(var[var.find("_")+1:])
         ordered_domain = self.order_domain_value(var)
-        print(f"Domain of variable {var}: {ordered_domain}")
+        # print(f"Domain of variable {var}: {ordered_domain}")
 
         for value in ordered_domain:
             if self.check_consistency(var, value):
-                print(f"{var}: {value} consistent with assignment")
+                # print(f"{var}: {value} consistent with assignment")
                 self.assignment[var] = value
                 if value == "M":
                     self.shift_counts[0] += 1
@@ -169,22 +176,18 @@ class csp:
                     self.shift_counts[2] += 1
                 if value == "R":
                     self.has_rest[n] += 1
-                # print(self.domains)
-                # print(self.assignment)
                 store_var_domain = self.domains[var].copy()
                 del self.domains[var]
                 store_domains = {key: value.copy() for key, value in self.domains.items()}
                 inferences = self.get_inferences(var)
                 if inferences != -1:
-                    print(f"Assigned {var} = {value}")
+                    # print(f"Assigned {var} = {value}")
                     self.domains = inferences
                     result = self.backtracking_search()
                     if result != -1:
                         return result
-                else:
-                    print(f"{var}: {value} inconsistent with inferences")
             if var in self.assignment:
-                print(f"Undo {var} = {value}")
+                # print(f"Undo {var} = {value}")
                 del self.assignment[var]
                 if value == "M":
                     self.shift_counts[0] -= 1
@@ -204,26 +207,40 @@ class csp:
         if len(self.assignment) % (7 * self.N) == 0: # in case of failure, undo resetting of has_rest
             self.has_rest = store_has_rest
 
-        print("Failure")
+        # print("Failure")
 
         return -1       
 
 if values.size == 5:
     csp_solver = csp(values[0, 0], values[0, 1], values[0, 2], values[0, 3], values[0, 4])
-    assignment = csp_solver.backtracking_search()
-    if assignment == -1:
+    if (values[0, 2] + values[0, 3] + values[0, 4] > values[0, 0]) or ((values[0, 2] + values[0, 3] + values[0, 4] == values[0, 0]) and values[0,1] >= 7):
         print("NO-SOLUTION")
         assignment = {}
     else:
-        print(assignment)
+        assignment = csp_solver.backtracking_search()
+        if assignment == -1:
+            print("NO-SOLUTION")
+            assignment = {}
+        else:
+            print(assignment)
     soln_list = [assignment]
     with open("solution.json", 'w') as file:
         for d in soln_list:
             json.dump(d, file)
             file.write("\n")
 
+    for i in range(csp_solver.N):
+        print(f"N-{i}", end=" ")
+        for j in range(csp_solver.D):
+            print(assignment["N"+str(i)+"_"+str(j)], end=" ")
+        print("")
+
+
 
 # elif values.size == 7:
 
 else:
     raise Exception("Improper number of inputs in file.")
+
+time_taken = time.process_time() - start
+print("Time Taken:", time_taken)
