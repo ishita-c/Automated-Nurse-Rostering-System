@@ -491,6 +491,12 @@ elif values.size == 7:
         for j in range(csp_solver.D):
             print(assignment["N"+str(i)+"_"+str(j)], end=" ")
         print("")
+    weight=0
+    for i in range(csp_solver.S):
+        for j in range(csp_solver.D):
+            if assignment["N"+str(i)+"_"+str(j)]=="M" or assignment["N"+str(i)+"_"+str(j)]=="E":
+                weight+=1
+    print("Weight= 2^", weight)
 
 else:
     raise Exception("Improper number of inputs in file.")
