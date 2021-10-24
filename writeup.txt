@@ -1,0 +1,24 @@
+Automated Nurse Rostering System
+
+Part A: Rostering with Constraints
+
+1) Slots are alloted to nurses day-wise. 
+    The constraints of m "M", a "A" and e "E" slots are checked after alloting slots for the day.
+    The constraint of atleast one "R" slot for a nurse is checked while alloting their slot for the last day of the week.
+    The constraint that "M" and "E" slots are not followed by "M" slot the next day are checked when alloting a slot for a each nurse.
+
+2) Inferences Considered
+    i) If a nurse gets assigned "M" or "E" for a day, the slot "M" is removed from next day's domain.
+    ii) While alloting slots for any day, counts for no. of "M", "A" and "E" slots alloted so far for that day are maintained.
+        If on assigning a variable, any of the m "M", a "A" or e "E" slots constraint gets satisfied, the corresponding slot is removed from 
+        domains of unassigned nurses of the day.
+
+3) Selecting Unassigned Variable
+    The unassigned variable of the smallest domain is chosen.
+
+4) Ordering Domain Values
+    Each day, exactly r = N - m - a - e nurses, are chosen and they are given "R" as the first choice in their domain.
+    After this, a fixed ordering of remaining domain values is followed, "A" > "M" > "E".
+
+Part B: Incorporating Preferences 
+

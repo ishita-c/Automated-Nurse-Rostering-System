@@ -25,7 +25,6 @@ class csp:
         self.m = m
         self.a = a
         self.e = e
-        self.r = N - m - a - e
         self.domains = {}
         for n in range(N):
             for d in range(D):
@@ -34,6 +33,7 @@ class csp:
         self.has_rest = [0 for i in range(self.N)]
         self.shift_counts = [0 for i in range(3)]
         self.cur_day = -1
+        self.max_r = (7*(N-m-a-e) - N)//N + 3
         
     def select_unassigned_variable(self):
         most_constrained = None
@@ -50,39 +50,16 @@ class csp:
         return most_constrained
 
     def order_domain_value(self, var_name):
-        n = int(var_name[1:var_name.find("_")])
-        d = int(var_name[var_name.find("_")+1:])
         domain = self.domains[var_name]
         ordered_domain = []
-        # offer rest first to (cur_day * r) % N to (cur_day * r + r -1) % N nurses
-        start = (d * self.r) % self.N
-        end = ((d * self. r) + self.r -1) % self.N
-        if self.r >= 1:
-            if start <= end: # range of nurses [start, end] get "R" first (if self.r == 1, start = end)
-                if n >= start and n <= end:
-                    if "R" in domain:
-                        ordered_domain.append("R")
-            else: # range of nurses [0, end] and [start, N-1] get "R" first
-                if n >= start or n <= end:
-                    if "R" in domain:
-                        ordered_domain.append("R")
-            if "A" in domain:
-                ordered_domain.append("A")
-            if "M" in domain:
-                ordered_domain.append("M")
-            if "E" in domain:
-                ordered_domain.append("E")
-            if "R" in domain and "R" not in ordered_domain:
-                ordered_domain.append("R")
-        else:
-            if "A" in domain:
-                ordered_domain.append("A")
-            if "M" in domain:
-                ordered_domain.append("M")
-            if "E" in domain:
-                ordered_domain.append("E")
-            if "R" in domain:
-                ordered_domain.append("R")
+        if "A" in domain:
+            ordered_domain.append("A")
+        if "M" in domain:
+            ordered_domain.append("M")
+        if "E" in domain:
+            ordered_domain.append("E")
+        if "R" in domain:
+            ordered_domain.append("R")
         return ordered_domain
 
     def check_consistency(self, var, value):
@@ -106,6 +83,8 @@ class csp:
         updated_has_rest = self.has_rest[:]
         if value == "R":
             updated_has_rest[n] += 1
+        if updated_has_rest[n] > self.max_r:
+            return False
         if (d + 1) % 7 == 0:
             if updated_has_rest[n] == 0:
                 return False
@@ -230,7 +209,7 @@ class csp:
 
         # print("Failure")
 
-        return -1  
+        return -1
 
 class csp_pref:
 
@@ -440,7 +419,7 @@ class csp_pref:
 
         # print("Failure")
 
-        return -1    
+        return -1
 
 if values.size == 5:
     csp_solver = csp(values[0, 0], values[0, 1], values[0, 2], values[0, 3], values[0, 4])
@@ -453,20 +432,18 @@ if values.size == 5:
             print("NO-SOLUTION")
             assignment = {}
         else:
-            print(assignment)
+            # print(assignment)
+            print("SOLUTION")
+            for i in range(csp_solver.N):
+                print(f"N-{i}", end=" ")
+                for j in range(csp_solver.D):
+                    print(assignment["N"+str(i)+"_"+str(j)], end=" ")
+                print("")
     soln_list = [assignment]
     with open("solution.json", 'w') as file:
         for d in soln_list:
             json.dump(d, file)
             file.write("\n")
-
-    for i in range(csp_solver.N):
-        print(f"N-{i}", end=" ")
-        for j in range(csp_solver.D):
-            print(assignment["N"+str(i)+"_"+str(j)], end=" ")
-        print("")
-
-
 
 elif values.size == 7:
     csp_solver = csp_pref(values[0, 0], values[0, 1], values[0, 2], values[0, 3], values[0, 4], values[0,5])
@@ -479,18 +456,18 @@ elif values.size == 7:
             print("NO-SOLUTION")
             assignment = {}
         else:
-            print(assignment)
+            # print(assignment)
+            print("SOLUTION")
+            for i in range(csp_solver.N):
+                print(f"N-{i}", end=" ")
+                for j in range(csp_solver.D):
+                    print(assignment["N"+str(i)+"_"+str(j)], end=" ")
+                print("")
     soln_list = [assignment]
     with open("solution.json", 'w') as file:
         for d in soln_list:
             json.dump(d, file)
             file.write("\n")
-
-    for i in range(csp_solver.N):
-        print(f"N-{i}", end=" ")
-        for j in range(csp_solver.D):
-            print(assignment["N"+str(i)+"_"+str(j)], end=" ")
-        print("")
 
 else:
     raise Exception("Improper number of inputs in file.")
