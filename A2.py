@@ -247,13 +247,14 @@ class csp:
 
 class csp_pref:
 
-    def __init__(self, N, D, m, a, e, S):
+    def __init__(self, N, D, m, a, e, S, T):
         self.N = N
         self.D = D
         self.m = m
         self.a = a
         self.e = e
         self.S = S
+        self.T = T
         self.r = N - m - a - e
         self.domains = {}
         for n in range(N):
@@ -294,7 +295,8 @@ class csp_pref:
         ordered_domain = []
         if n < self.S:
             # if rest is needed in this week (i.e. this week is complete) and rest has not been alloted, offer rest first
-            if (d//7 < self.D//7) and self.has_rest[n] < 1:
+            # only if it is not the first dat of the week
+            if (d%7 != 0) and (d//7 < self.D//7) and self.has_rest[n] < 1:
                 if "R" in domain:
                     ordered_domain.append("R")
                 if "M" in domain:
@@ -423,12 +425,49 @@ class csp_pref:
                     return -1
         return updated_domains
 
-    def backtracking_search(self):
+    def assignment_weight_exponent(self, assignment):
+        weight = 0
+        for i in range(csp_solver.S):
+            for j in range(csp_solver.D):
+                if "N"+str(i)+"_"+str(j) in assignment:
+                    if assignment["N"+str(i)+"_"+str(j)] == "M" or assignment["N"+str(i)+"_"+str(j)] == "E":
+                        weight += 1
+        return weight
+
+    def print_and_store(self, assignment):
+        if assignment:
+            print("SOLUTION")
+            for i in range(csp_solver.N):
+                print(f"N-{i}", end=" ")
+                for j in range(csp_solver.D):
+                    if "N"+str(i)+"_"+str(j) in assignment:
+                        print(assignment["N"+str(i)+"_"+str(j)], end=" ")
+                print("")
+        print(f"Weight = 2^{self.assignment_weight_exponent(assignment)}")
+        soln_list = [assignment]
+        with open("solution.json", 'w') as file:
+            for d in soln_list:
+                json.dump(d, file)
+                file.write("\n")
+
+    def backtracking_search(self, best_list, start_time):
         '''
-            returns a valid assignment, or -1 in case of no solution
+            stores a sub-optimal (possibly optimal) assignment, or {} in case of no solution
+            chooses an assignment for first variable and calls backtracking_search_helper()
+            best_list = [best_weight, best_assignment]
         '''
+        best_weight, best_assignment = best_list[0], best_list[1]
+
         if len(self.assignment) == self.N * self.D:
-            return self.assignment
+            res_weight = self.assignment_weight_exponent(self.assignment)
+            if best_weight < res_weight:
+                self.print_and_store(self.assignment)
+                best_list[0] = res_weight
+                best_list[1] = {key: value for key, value in self.assignment.items()}
+            return
+
+        if time.process_time() - start_time >= self.T - 0.3: # stop 0.3 seconds early
+            return
 
         if len(self.assignment) % self.N == 0: # assignment for previous day completed, reset shift_counts
             self.cur_day += 1
@@ -466,9 +505,9 @@ class csp_pref:
                 if inferences != -1:
                     # print(f"Assigned {var} = {value}")
                     self.domains = inferences
-                    result = self.backtracking_search()
-                    if result != -1:
-                        return result
+                    result = self.backtracking_search(best_list, start_time)
+                    # if result != -1:
+                        # return result
             if var in self.assignment:
                 # print(f"Undo {var} = {value}")
                 del self.assignment[var]
@@ -493,7 +532,7 @@ class csp_pref:
 
         # print("Failure")
 
-        return -1
+        return
          
 
 if values.size == 5:
@@ -530,7 +569,7 @@ if values.size == 5:
 
 
 elif values.size == 7:
-    csp_solver = csp_pref(values[0, 0], values[0, 1], values[0, 2], values[0, 3], values[0, 4], values[0,5])
+    csp_solver = csp_pref(values[0, 0], values[0, 1], values[0, 2], values[0, 3], values[0, 4], values[0, 5], values[0, 6])
     if (values[0, 2] + values[0, 3] + values[0, 4] > values[0, 0]) or ((values[0, 2] + values[0, 3] + values[0, 4] == values[0, 0]) and values[0,1] >= 7):
         print("NO-SOLUTION")
         assignment = {}
@@ -543,29 +582,9 @@ elif values.size == 7:
         print("NO-SOLUTION")
         assignment = {}
     else:
-        assignment = csp_solver.backtracking_search()
-        if assignment == -1:
-            print("NO-SOLUTION")
-            assignment = {}
-        else:
-            # print(assignment)
-            print("SOLUTION")
-            for i in range(csp_solver.N):
-                print(f"N-{i}", end=" ")
-                for j in range(csp_solver.D):
-                    print(assignment["N"+str(i)+"_"+str(j)], end=" ")
-                print("")
-            weight = 0
-            for i in range(csp_solver.S):
-                for j in range(csp_solver.D):
-                    if assignment["N"+str(i)+"_"+str(j)] == "M" or assignment["N"+str(i)+"_"+str(j)] == "E":
-                        weight += 1
-            print(f"Weight = 2^{weight}")
-    soln_list = [assignment]
-    with open("solution.json", 'w') as file:
-        for d in soln_list:
-            json.dump(d, file)
-            file.write("\n")
+        assignment = {}
+        csp_solver.print_and_store(assignment) # store empty dict. in file first
+        assignment = csp_solver.backtracking_search([0, {}], start_time=start) # will store sub-optimal solutions as it finds them
 
 else:
     raise Exception("Improper number of inputs in file.")

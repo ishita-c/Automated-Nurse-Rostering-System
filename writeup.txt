@@ -2,23 +2,50 @@ Automated Nurse Rostering System
 
 Part A: Rostering with Constraints
 
-1) Slots are alloted to nurses day-wise. 
+1) Constraint Checking
+    Slots are alloted to nurses day-wise. 
     The constraints of m "M", a "A" and e "E" slots are checked after alloting slots for the day.
     The constraint of atleast one "R" slot for a nurse is checked while alloting their slot for the last day of the week.
-    The constraint that "M" and "E" slots are not followed by "M" slot the next day are checked when alloting a slot for a each nurse.
+    The constraint that "M" and "E" slots are not followed by an "M" slot the next day are checked when alloting a slot for a each nurse.
 
 2) Inferences Considered
     i) If a nurse gets assigned "M" or "E" for a day, the slot "M" is removed from next day's domain.
-    ii) While alloting slots for any day, counts for no. of "M", "A" and "E" slots alloted so far for that day are maintained.
-        If on assigning a variable, any of the m "M", a "A" or e "E" slots constraint gets satisfied, the corresponding slot is removed from 
-        domains of unassigned nurses of the day.
+    ii) While alloting slots for any day, counts for no. of "M", "A", "E" and "R" slots alloted so far for that day are maintained.
+        If on assigning a variable, any of the m "M", a "A", e "E" or r "R" slots constraint gets satisfied, the corresponding slot is removed 
+        from domains of unassigned nurses of the day.
 
 3) Selecting Unassigned Variable
     The unassigned variable of the smallest domain is chosen.
 
 4) Ordering Domain Values
     Each day, exactly r = N - m - a - e nurses, are chosen and they are given "R" as the first choice in their domain.
+    These nurses are chosen on a rotation basis.
     After this, a fixed ordering of remaining domain values is followed, "A" > "M" > "E".
 
+5) There are 4 cases in which we can predetermine based on values of N, D, m, a, e that there will be no solution.
+    They have been explained in code.
+
+
 Part B: Incorporating Preferences 
+
+1) The code runs till the end time T and stores progressively better weight solutions, if found.
+
+2) Constraint Checking
+    Same as Part A
+
+3) Inferences Considered
+    Same as Part A
+
+4) Selecting Unassigned Variable
+    Slots are again assigned daywise.
+    In the current day, if there are unassigned senior nurses present, then the senior nurse with the smallest domain is selected.
+    Else, a normal nurse with the smallest domain is selected.
+
+5) Ordering Domain Values
+    For a senior nurse, if it is not the first day of the week, and a rest must be alloted for this week (i.e. the week is not incomplete)
+        and no rest has been alloted to this nurse in the week so far, give "R" first followed by "M", "E" and "A".
+    Else give "M", "E", "A" followed by "R" as domain ordering.
+    For normal nurses, it a rest  must be alloted for this week (i.e. the week is not incomplete) and no rest has been alloted to this 
+        nurse in the week so far, give "R" first followed by "A", "M" and "E".
+    Else give "A", "M", "E" followed by "R" as domain ordering.
 
