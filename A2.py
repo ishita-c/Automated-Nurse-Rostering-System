@@ -295,7 +295,7 @@ class csp_pref:
         ordered_domain = []
         if n < self.S:
             # if rest is needed in this week (i.e. this week is complete) and rest has not been alloted, offer rest first
-            # only if it is not the first dat of the week
+            # only if it is not the first day of the week
             if (d%7 != 0) and (d//7 < self.D//7) and self.has_rest[n] < 1:
                 if "R" in domain:
                     ordered_domain.append("R")
@@ -450,20 +450,16 @@ class csp_pref:
                 json.dump(d, file)
                 file.write("\n")
 
-    def backtracking_search(self, best_list, start_time):
+    def backtracking_search(self, best_weight, start_time):
         '''
             stores a sub-optimal (possibly optimal) assignment, or {} in case of no solution
-            chooses an assignment for first variable and calls backtracking_search_helper()
-            best_list = [best_weight, best_assignment]
         '''
-        best_weight, best_assignment = best_list[0], best_list[1]
 
         if len(self.assignment) == self.N * self.D:
             res_weight = self.assignment_weight_exponent(self.assignment)
-            if best_weight < res_weight:
+            if best_weight[0] < res_weight: # best_weight is a list of length 1, so that it is passed by reference
                 self.print_and_store(self.assignment)
-                best_list[0] = res_weight
-                best_list[1] = {key: value for key, value in self.assignment.items()}
+                best_weight[0] = res_weight
             return
 
         if time.process_time() - start_time >= self.T - 0.3: # stop 0.3 seconds early
@@ -505,7 +501,7 @@ class csp_pref:
                 if inferences != -1:
                     # print(f"Assigned {var} = {value}")
                     self.domains = inferences
-                    result = self.backtracking_search(best_list, start_time)
+                    result = self.backtracking_search(best_weight, start_time)
                     # if result != -1:
                         # return result
             if var in self.assignment:
@@ -584,7 +580,7 @@ elif values.size == 7:
     else:
         assignment = {}
         csp_solver.print_and_store(assignment) # store empty dict. in file first
-        assignment = csp_solver.backtracking_search([0, {}], start_time=start) # will store sub-optimal solutions as it finds them
+        assignment = csp_solver.backtracking_search([0], start_time=start) # will store sub-optimal solutions as it finds them
 
 else:
     raise Exception("Improper number of inputs in file.")
