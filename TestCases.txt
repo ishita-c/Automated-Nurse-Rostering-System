@@ -1,0 +1,21 @@
+Each line is a new test case.
+Copy any test case from Part A and replace existing test case in the file 'input_a.csv'
+    or any test case from Part B and replace existing test case in the file 'input_b.csv'
+Then use the command
+    python3 A2.py filename.csv
+to run that test case.
+
+Part A:
+
+    5, 7, 2, 1, 1
+    30, 21, 10, 5, 5
+    10, 8, 4, 3, 2
+    9, 7, 3, 2, 3
+    40, 40, 20, 5, 5 
+
+Part B:
+
+    5, 3, 2, 1, 1, 2, 120
+    6, 2, 2, 2, 2, 3, 120
+    30, 21, 10, 5, 5, 25
+    35, 22, 9, 6, 6, 21

@@ -4,9 +4,8 @@ import numpy as np
 import json
 import time
 
-sys.setrecursionlimit(1500)
 
-
+# sys.setrecursionlimit(1500)
 start = time.process_time()
 
 if len(sys.argv) != 2:
@@ -32,7 +31,7 @@ class csp:
                 self.domains["N" + str(n) + "_" + str(d)] = {"M", "A", "E", "R"}
         self.assignment = {}
         self.has_rest = [0 for i in range(self.N)]
-        self.shift_counts = [0 for i in range(3)]
+        self.shift_counts = [0 for i in range(4)] # contains numbers of "M", "A", "E" and "R" shifts alloted in cur_day so far
         self.cur_day = -1
         
     def select_unassigned_variable(self):
@@ -103,6 +102,8 @@ class csp:
             updated_shift_counts[1] += 1
         elif value == "E":
             updated_shift_counts[2] += 1
+        else: # value == "R"
+            updated_shift_counts[3] += 1
         updated_has_rest = self.has_rest[:]
         if value == "R":
             updated_has_rest[n] += 1
@@ -110,7 +111,7 @@ class csp:
             if updated_has_rest[n] == 0:
                 return False
         if (num_assigned + 1) % self.N == 0:
-            if (updated_shift_counts[0] != self.m) or (updated_shift_counts[1] != self.a) or (updated_shift_counts[2] != self.e):
+            if (updated_shift_counts[0] != self.m) or (updated_shift_counts[1] != self.a) or (updated_shift_counts[2] != self.e) or (updated_shift_counts[3] != self.r):
                 return False
         return True
 
@@ -153,6 +154,16 @@ class csp:
                             updated_domains[var_name].remove("E")
                             if len(updated_domains[var_name]) == 0:
                                 return -1
+        else: # value == "R"
+            if self.shift_counts[3] == self.r:
+                # delete "R" from all domains of cur_day
+                for i in range(self.N):
+                    var_name = "N" + str(i) + "_" + str(d)
+                    if var_name in updated_domains:
+                        if "R" in updated_domains[var_name]:
+                            updated_domains[var_name].remove("R")
+                            if len(updated_domains[var_name]) == 0:
+                                return -1
         # inferences for next day of this nurse
         if d < self.D-1:
             var_name = "N" + str(n) + "_" + str(d+1)
@@ -172,7 +183,7 @@ class csp:
         if len(self.assignment) % self.N == 0: # assignment for previous day completed, reset shift_counts
             self.cur_day += 1
             store_shift_counts = self.shift_counts[:]
-            self.shift_counts = [0 for i in range(3)]
+            self.shift_counts = [0 for i in range(4)]
         
         if len(self.assignment) % (7 * self.N) == 0: # assignment for previous week completed, reset has_rest
             store_has_rest = self.has_rest[:]
@@ -195,7 +206,8 @@ class csp:
                     self.shift_counts[1] += 1
                 elif value == "E":
                     self.shift_counts[2] += 1
-                if value == "R":
+                else: # value == "R"
+                    self.shift_counts[3] += 1
                     self.has_rest[n] += 1
                 store_var_domain = self.domains[var].copy()
                 del self.domains[var]
@@ -216,7 +228,8 @@ class csp:
                     self.shift_counts[1] -= 1
                 elif value == "E":
                     self.shift_counts[2] -= 1
-                if value == "R":
+                else: # value == "R"
+                    self.shift_counts[3] -= 1
                     self.has_rest[n] -= 1
                 self.domains = store_domains # undo inferences
                 self.domains[var] = store_var_domain # add back domain of var since it gets unassigned
@@ -241,32 +254,37 @@ class csp_pref:
         self.a = a
         self.e = e
         self.S = S
+        self.r = N - m - a - e
         self.domains = {}
         for n in range(N):
             for d in range(D):
                 self.domains["N" + str(n) + "_" + str(d)] = {"M", "A", "E", "R"}
         self.assignment = {}
         self.has_rest = [0 for i in range(self.N)]
-        self.shift_counts = [0 for i in range(3)]
+        self.shift_counts = [0 for i in range(4)] # contains numbers of "M", "A", "E" and "R" shifts alloted in cur_day so far
         self.cur_day = -1
-        self.max_r = (7*(N-m-a-e) - N)//N + 3
         
     def select_unassigned_variable(self):
         most_constrained = None
         least_domain_size = None
         day = self.cur_day
-        for i in range(self.N):
+        for i in range(self.S): # senior nurses
             var_name = "N" + str(i) + "_" + str(day)
             if var_name in self.domains:
                 cur_domain_size = len(self.domains[var_name])
-                if i < self.S:
+                if least_domain_size == None or cur_domain_size < least_domain_size:
                     least_domain_size = cur_domain_size
                     most_constrained = var_name
-                else:
-                # choose in case of ties
-                    if least_domain_size == None or cur_domain_size < least_domain_size:
-                        least_domain_size = cur_domain_size
-                        most_constrained = var_name
+        if most_constrained != None:
+            return most_constrained
+        for i in range(self.S, self.N):
+            var_name = "N" + str(i) + "_" + str(day)
+            if var_name in self.domains:
+                cur_domain_size = len(self.domains[var_name])
+                # in case of ties, min. day index is chosen
+                if least_domain_size == None or cur_domain_size < least_domain_size:
+                    least_domain_size = cur_domain_size
+                    most_constrained = var_name
         return most_constrained
 
     def order_domain_value(self, var_name):
@@ -278,10 +296,10 @@ class csp_pref:
                 ordered_domain.append("M")
             if "E" in domain:
                 ordered_domain.append("E")
-            if "A" in domain:
-                ordered_domain.append("A")
             if "R" in domain:
                 ordered_domain.append("R")
+            if "A" in domain:
+                ordered_domain.append("A")
         else:
             if "A" in domain:
                 ordered_domain.append("A")
@@ -311,16 +329,16 @@ class csp_pref:
             updated_shift_counts[1] += 1
         elif value == "E":
             updated_shift_counts[2] += 1
+        else: # value == "R"
+            updated_shift_counts[3] += 1
         updated_has_rest = self.has_rest[:]
         if value == "R":
             updated_has_rest[n] += 1
-        if updated_has_rest[n] > self.max_r:
-            return False
         if (d + 1) % 7 == 0:
             if updated_has_rest[n] == 0:
                 return False
         if (num_assigned + 1) % self.N == 0:
-            if (updated_shift_counts[0] != self.m) or (updated_shift_counts[1] != self.a) or (updated_shift_counts[2] != self.e):
+            if (updated_shift_counts[0] != self.m) or (updated_shift_counts[1] != self.a) or (updated_shift_counts[2] != self.e) or (updated_shift_counts[3] != self.r):
                 return False
         return True
 
@@ -363,6 +381,16 @@ class csp_pref:
                             updated_domains[var_name].remove("E")
                             if len(updated_domains[var_name]) == 0:
                                 return -1
+        else: # value == "R"
+            if self.shift_counts[3] == self.r:
+                # delete "R" from all domains of cur_day
+                for i in range(self.N):
+                    var_name = "N" + str(i) + "_" + str(d)
+                    if var_name in updated_domains:
+                        if "R" in updated_domains[var_name]:
+                            updated_domains[var_name].remove("R")
+                            if len(updated_domains[var_name]) == 0:
+                                return -1
         # inferences for next day of this nurse
         if d < self.D-1:
             var_name = "N" + str(n) + "_" + str(d+1)
@@ -382,7 +410,7 @@ class csp_pref:
         if len(self.assignment) % self.N == 0: # assignment for previous day completed, reset shift_counts
             self.cur_day += 1
             store_shift_counts = self.shift_counts[:]
-            self.shift_counts = [0 for i in range(3)]
+            self.shift_counts = [0 for i in range(4)]
         
         if len(self.assignment) % (7 * self.N) == 0: # assignment for previous week completed, reset has_rest
             store_has_rest = self.has_rest[:]
@@ -405,7 +433,8 @@ class csp_pref:
                     self.shift_counts[1] += 1
                 elif value == "E":
                     self.shift_counts[2] += 1
-                if value == "R":
+                else: # value == "R"
+                    self.shift_counts[3] += 1
                     self.has_rest[n] += 1
                 store_var_domain = self.domains[var].copy()
                 del self.domains[var]
@@ -426,7 +455,8 @@ class csp_pref:
                     self.shift_counts[1] -= 1
                 elif value == "E":
                     self.shift_counts[2] -= 1
-                if value == "R":
+                else: # value == "R"
+                    self.shift_counts[3] -= 1
                     self.has_rest[n] -= 1
                 self.domains = store_domains # undo inferences
                 self.domains[var] = store_var_domain # add back domain of var since it gets unassigned
@@ -440,11 +470,20 @@ class csp_pref:
 
         # print("Failure")
 
-        return -1    
+        return -1
+         
 
 if values.size == 5:
     csp_solver = csp(values[0, 0], values[0, 1], values[0, 2], values[0, 3], values[0, 4])
     if (values[0, 2] + values[0, 3] + values[0, 4] > values[0, 0]) or ((values[0, 2] + values[0, 3] + values[0, 4] == values[0, 0]) and values[0,1] >= 7):
+        print("NO-SOLUTION")
+        assignment = {}
+    elif (values[0, 1] * (values[0, 0] - values[0,2] - values[0, 3] - values[0, 4])) < (values[0, 0] * (values[0, 1]//7)):
+        # D*(N-m-a-e) < N*(D//7), i.e. rests allowed to be alloted in a week < rests needed in a week
+        print("NO-SOLUTION")
+        assignment = {}
+    elif (values[0, 1] > 1) and ((values[0, 0] - values[0,2] - values[0, 3] - values[0, 4]) + values[0, 3] < values[0, 2]):
+        # if D > 1 and r + a < m, then there is no solution as all nurses who have "E" or "M" in day 0 need to get either "E", "A" or "R" in day 1
         print("NO-SOLUTION")
         assignment = {}
     else:
@@ -453,19 +492,18 @@ if values.size == 5:
             print("NO-SOLUTION")
             assignment = {}
         else:
-            print(assignment)
+            # print(assignment)
+            print("SOLUTION")
+            for i in range(csp_solver.N):
+                print(f"N-{i}", end=" ")
+                for j in range(csp_solver.D):
+                    print(assignment["N"+str(i)+"_"+str(j)], end=" ")
+                print("")
     soln_list = [assignment]
     with open("solution.json", 'w') as file:
         for d in soln_list:
             json.dump(d, file)
             file.write("\n")
-
-    for i in range(csp_solver.N):
-        print(f"N-{i}", end=" ")
-        for j in range(csp_solver.D):
-            print(assignment["N"+str(i)+"_"+str(j)], end=" ")
-        print("")
-
 
 
 elif values.size == 7:
@@ -473,30 +511,38 @@ elif values.size == 7:
     if (values[0, 2] + values[0, 3] + values[0, 4] > values[0, 0]) or ((values[0, 2] + values[0, 3] + values[0, 4] == values[0, 0]) and values[0,1] >= 7):
         print("NO-SOLUTION")
         assignment = {}
+    elif (values[0, 1] * (values[0, 0] - values[0,2] - values[0, 3] - values[0, 4])) < values[0, 0] * (values[0, 1]//7):
+        # D*(N-m-a-e) < N*(D//7), i.e. rests allowed to be alloted in a week < rests needed in a week
+        print("NO-SOLUTION")
+        assignment = {}
+    elif (values[0, 1] > 1) and ((values[0, 0] - values[0,2] - values[0, 3] - values[0, 4]) + values[0, 3] < values[0, 2]):
+        # if D > 1 and r + a < m, then there is no solution as all nurses who have "E" or "M" in day 0 need to get either "E", "A" or "R" in day 1
+        print("NO-SOLUTION")
+        assignment = {}
     else:
         assignment = csp_solver.backtracking_search()
         if assignment == -1:
             print("NO-SOLUTION")
             assignment = {}
         else:
-            print(assignment)
+            # print(assignment)
+            print("SOLUTION")
+            for i in range(csp_solver.N):
+                print(f"N-{i}", end=" ")
+                for j in range(csp_solver.D):
+                    print(assignment["N"+str(i)+"_"+str(j)], end=" ")
+                print("")
+            weight = 0
+            for i in range(csp_solver.S):
+                for j in range(csp_solver.D):
+                    if assignment["N"+str(i)+"_"+str(j)] == "M" or assignment["N"+str(i)+"_"+str(j)] == "E":
+                        weight += 1
+            print(f"Weight = 2^{weight}")
     soln_list = [assignment]
     with open("solution.json", 'w') as file:
         for d in soln_list:
             json.dump(d, file)
             file.write("\n")
-
-    for i in range(csp_solver.N):
-        print(f"N-{i}", end=" ")
-        for j in range(csp_solver.D):
-            print(assignment["N"+str(i)+"_"+str(j)], end=" ")
-        print("")
-    weight=0
-    for i in range(csp_solver.S):
-        for j in range(csp_solver.D):
-            if assignment["N"+str(i)+"_"+str(j)]=="M" or assignment["N"+str(i)+"_"+str(j)]=="E":
-                weight+=1
-    print("Weight= 2^", weight)
 
 else:
     raise Exception("Improper number of inputs in file.")
