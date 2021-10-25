@@ -289,18 +289,31 @@ class csp_pref:
 
     def order_domain_value(self, var_name):
         n = int(var_name[1:var_name.find("_")])
+        d = int(var_name[var_name.find("_")+1:])
         domain = self.domains[var_name]
         ordered_domain = []
         if n < self.S:
-            if "M" in domain:
-                ordered_domain.append("M")
-            if "E" in domain:
-                ordered_domain.append("E")
-            if "R" in domain:
-                ordered_domain.append("R")
-            if "A" in domain:
-                ordered_domain.append("A")
+            # for senior nurse, if rest is needed in this week and rest has not been alloted, offer rest first
+            if (d//7 < self.D//7) and self.has_rest[n] < 1:
+                if "R" in domain:
+                    ordered_domain.append("R")
+                if "M" in domain:
+                    ordered_domain.append("M")
+                if "E" in domain:
+                    ordered_domain.append("E")
+                if "A" in domain:
+                    ordered_domain.append("A")
+            else:
+                if "M" in domain:
+                    ordered_domain.append("M")
+                if "E" in domain:
+                    ordered_domain.append("E")
+                if "A" in domain:
+                    ordered_domain.append("A")
+                if "R" in domain:
+                    ordered_domain.append("R")
         else:
+            # offer rest first to (cur_day * r) % N to (cur_day * r + r -1) % N nurses
             if "A" in domain:
                 ordered_domain.append("A")
             if "M" in domain:
