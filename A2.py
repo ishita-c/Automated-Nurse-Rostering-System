@@ -293,7 +293,7 @@ class csp_pref:
         domain = self.domains[var_name]
         ordered_domain = []
         if n < self.S:
-            # for senior nurse, if rest is needed in this week and rest has not been alloted, offer rest first
+            # if rest is needed in this week (i.e. this week is complete) and rest has not been alloted, offer rest first
             if (d//7 < self.D//7) and self.has_rest[n] < 1:
                 if "R" in domain:
                     ordered_domain.append("R")
@@ -313,15 +313,25 @@ class csp_pref:
                 if "R" in domain:
                     ordered_domain.append("R")
         else:
-            # offer rest first to (cur_day * r) % N to (cur_day * r + r -1) % N nurses
-            if "A" in domain:
-                ordered_domain.append("A")
-            if "M" in domain:
-                ordered_domain.append("M")
-            if "E" in domain:
-                ordered_domain.append("E")
-            if "R" in domain:
-                ordered_domain.append("R")
+            # if rest is needed in this week (i.e. this week is complete) and rest has not been alloted, offer rest first
+            if (d//7 < self.D//7) and self.has_rest[n] < 1:
+                if "R" in domain:
+                    ordered_domain.append("R")
+                if "A" in domain:
+                    ordered_domain.append("A")
+                if "M" in domain:
+                    ordered_domain.append("M")
+                if "E" in domain:
+                    ordered_domain.append("E")
+            else:
+                if "A" in domain:
+                    ordered_domain.append("A")
+                if "M" in domain:
+                    ordered_domain.append("M")
+                if "E" in domain:
+                    ordered_domain.append("E")
+                if "R" in domain:
+                    ordered_domain.append("R")
         return ordered_domain
 
     def check_consistency(self, var, value):
