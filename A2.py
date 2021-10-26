@@ -536,8 +536,8 @@ if values.size == 5:
     if (values[0, 2] + values[0, 3] + values[0, 4] > values[0, 0]) or ((values[0, 2] + values[0, 3] + values[0, 4] == values[0, 0]) and values[0,1] >= 7):
         print("NO-SOLUTION")
         assignment = {}
-    elif (values[0, 1] * (values[0, 0] - values[0,2] - values[0, 3] - values[0, 4])) < (values[0, 0] * (values[0, 1]//7)):
-        # D*(N-m-a-e) < N*(D//7), i.e. rests allowed to be alloted in a week < rests needed in a week
+    elif (7*(values[0, 1]//7) * (values[0, 0] - values[0,2] - values[0, 3] - values[0, 4])) < (values[0, 0] * (values[0, 1]//7)):
+        # 7*(D//7)*(N-m-a-e) < N*(D//7), i.e. rests allowed to be alloted in a week < rests needed in a week
         print("NO-SOLUTION")
         assignment = {}
     elif (values[0, 1] > 1) and ((values[0, 0] - values[0,2] - values[0, 3] - values[0, 4]) + values[0, 3] < values[0, 2]):
@@ -569,8 +569,8 @@ elif values.size == 7:
     if (values[0, 2] + values[0, 3] + values[0, 4] > values[0, 0]) or ((values[0, 2] + values[0, 3] + values[0, 4] == values[0, 0]) and values[0,1] >= 7):
         print("NO-SOLUTION")
         assignment = {}
-    elif (values[0, 1] * (values[0, 0] - values[0,2] - values[0, 3] - values[0, 4])) < values[0, 0] * (values[0, 1]//7):
-        # D*(N-m-a-e) < N*(D//7), i.e. rests allowed to be alloted in a week < rests needed in a week
+    elif (7*(values[0, 1]//7) * (values[0, 0] - values[0,2] - values[0, 3] - values[0, 4])) < values[0, 0] * (values[0, 1]//7):
+        # 7*(D//7)*(N-m-a-e) < N*(D//7), i.e. rests allowed to be alloted in a week < rests needed in a week
         print("NO-SOLUTION")
         assignment = {}
     elif (values[0, 1] > 1) and ((values[0, 0] - values[0,2] - values[0, 3] - values[0, 4]) + values[0, 3] < values[0, 2]):
