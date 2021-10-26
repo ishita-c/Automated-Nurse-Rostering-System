@@ -537,7 +537,7 @@ if values.size == 5:
         print("NO-SOLUTION")
         assignment = {}
     elif (7*(values[0, 1]//7) * (values[0, 0] - values[0,2] - values[0, 3] - values[0, 4])) < (values[0, 0] * (values[0, 1]//7)):
-        # 7*(D//7)*(N-m-a-e) < N*(D//7), i.e. rests allowed to be alloted in a week < rests needed in a week
+        # 7*(D//7)*(N-m-a-e) < N*(D//7), i.e. total rests allowed to be alloted in complete all weeks < total rests needed in all complete weeks
         print("NO-SOLUTION")
         assignment = {}
     elif (values[0, 1] > 1) and ((values[0, 0] - values[0,2] - values[0, 3] - values[0, 4]) + values[0, 3] < values[0, 2]):
@@ -545,6 +545,12 @@ if values.size == 5:
         print("NO-SOLUTION")
         assignment = {}
     else:
+        assignment = {}
+        soln_list = [assignment]
+        with open("solution.json", 'w') as file:
+            for d in soln_list:
+                json.dump(d, file)
+                file.write("\n")
         assignment = csp_solver.backtracking_search()
         if assignment == -1:
             print("NO-SOLUTION")
@@ -570,7 +576,7 @@ elif values.size == 7:
         print("NO-SOLUTION")
         assignment = {}
     elif (7*(values[0, 1]//7) * (values[0, 0] - values[0,2] - values[0, 3] - values[0, 4])) < values[0, 0] * (values[0, 1]//7):
-        # 7*(D//7)*(N-m-a-e) < N*(D//7), i.e. rests allowed to be alloted in a week < rests needed in a week
+        # 7*(D//7)*(N-m-a-e) < N*(D//7), i.e. total rests allowed to be alloted in complete all weeks < total rests needed in all complete weeks
         print("NO-SOLUTION")
         assignment = {}
     elif (values[0, 1] > 1) and ((values[0, 0] - values[0,2] - values[0, 3] - values[0, 4]) + values[0, 3] < values[0, 2]):
